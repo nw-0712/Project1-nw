@@ -1,2 +1,39 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*  General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+  /*  Generic project styles */
+    color: #003135;
+    font-family: Lato, sans-serif;
+  }
+  h1, h2 {
+    font-family: Libre, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffff;
+  }
+
+h4, h6 {
+  font-family: Lato, sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  color: #ffff;
+}
+  /* Header */
+  header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
