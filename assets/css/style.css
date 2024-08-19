@@ -1,0 +1,100 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*  General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+  /*  Generic project styles */
+    color: #003135;
+    font-family: Lato, sans-serif;
+  }
+  h1, h2 {
+    font-family: Libre, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffff;
+  }
+
+h4, h6 {
+  font-family: Lato, sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  color: #003135 ;
+}
+  /* Header */
+  header {
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+ 
+
+/* Navbar hamburger style with dropdown toggle */
+nav {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%;
+}
+/* Nav toggle */
+#nav-toggle:checked~nav {
+  display: block;
+}
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
+}
+/* Main Content */
+
+ /* Hero section */
+ 
+ #hero {
+  
+}
+.hero-image {
+  height: 100vw;
+  width: 100vh;
+  background: url("../images/freepik-cover-neural.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+}
+/* Home section */
+
+/* About us section */
+
+/* Products & Services section */
+
+/* Contact us section */
+
+/* Sign up form */
+
+/* Newsletter sign-up */
+
+/* Google maps integration */
+
+/* Footer colored bar */
+#footerBlocksBottom {
+  background-color: #003135;
+}
+/* Footer Font white */
+.colouredbottom  {
+  color: #ffff;
+}
