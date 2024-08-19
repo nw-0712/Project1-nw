@@ -10,18 +10,19 @@ OVERVIEW</br>
 The site also provides the users a clear outline of the institute, their vison, mission and purpose which is to help, support, heal and accelerate everyone’s wellbeing mentally and physical, along with their environments.
 
 HOME PAGE</br>
-The pages included in this project are the home page, where the users can discover more about the institute, contact them, and adjust the accessibility settings to suit their specific needs and access the other pages through the top navigation or ‘hamburger’ icon drop-down menu.
+The pages included in this project are the home page, where the users can discover more about the institute, contact them, and adjust the accessibility settings to suit their specific needs and access the other pages through the top navigation or ‘hamburger’ drop-down menu.
 
 ABOUT US PAGE</br>
-The ‘About us’ page where the users can read about a summary of the institute, their vison, mission and values and who they collaborate with. On this page the users can also see four USPs (unique selling propositions) of the institute and click-throughs will direct users to  read a further about the USPs.
+The ‘About us’ page where the users can read about a summary of the institute, their vison, mission and values and who they collaborate with. On this page the users can also see four main USPs (unique selling propositions) of the institute and click-throughs will direct users to  read a further about the USPs.
 They can also read further about the full overview of the institute and their history, their approach on therapies and practises in more details, what makes the company different from all other biohacking organisations and about he global community they have built, with the purpose of encouraging, supporting each other as well as getting discounts and learning about new services and products.
+
 Users can also schedule an appointment directly through this page.
 
 PRODUCTS & SERVICES PAGE</br>
-This page the users learn more about some of the products & services that the institute offers. They can also learn more about six of the therapies and practises (chosen to highlight due to highest user feedback from EU regions) via up-to 5min short movie clips.
+This page the users learn more about some of the products & services that the institute offers. They can also learn more about six of the therapies and practises (with the highest user feedback from EU regions) via up-to 5min short movie clips.
 
 CONTACT PAGE</br>
-The users can fill out the contact form, sign up to the newsletter, click on the bottom links for the various site navigation sections named and there are several options to communicate with the institute through ‘message us’ click-through icon to text, ‘ask community’ click-through icon which directs the user to the community page, ‘call us’ click-through icon which shows telephone number and launches the call app of users phone, contact the resolution centre click-through icon which directs the user to the customer services centre (3rd party) to the resolution section or to join the global community, which directs the user to community page of site.
+The users can fill out the contact form, sign up to the newsletter, click on the bottom links for the various site navigation sections named and there are several options to communicate with the institute through ‘message us’ click-through-graphic to text company, ‘ask community’ click-through-graphic which directs the user to the community page, ‘call us’ click-through-graphic which shows telephone number and launches the call app of users phone, contact the resolution centre through click-through-graphic which directs the user to the customer services centre (3rd party) to the resolution section or to 'join the global community' click-through-graphic, which directs the user to community page of site.
 The users can also click on the map and be directed to Google Maps app to get directions.
 
 GENERAL FEATURES<br>
@@ -29,7 +30,7 @@ Navigation bar: feaured on all four website pages, that is fully responsive whic
 To allow a higher degree of usability I have got the base nav bar at the top which is clikable and a 'hambuger' menu, with a dropdown menu feature which shows all the sections and pages of the website.
 
 CONTACT BUTTON<br>
-This adds to usability to allow the user to click on 'conact' button from each page.
+This adds to usability to allow the user to click on 'contact' button from each page, to be directed straight through to contact page.
 
 Accessibility<br>
 This widget provides users with a comprehesive menu of different accessibility settings, depending on their specific preferences.
