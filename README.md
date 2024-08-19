@@ -41,3 +41,6 @@ PRODUCTS & SERVICES PAGE<br>
 
 Scheduling: The users can schedule an appointment easily but clikcing on the "call-to-action" button and then pop-up calendar and times are shown to shoose the specific time, day and month for an apopintment.
 
+CONTACT US<br>
+Contact form: users can fill in details and contact institute through this method.
+The users can also click on map and be directed to the Google maps application to get directions to the various offices.
