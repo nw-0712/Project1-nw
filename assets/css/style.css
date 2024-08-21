@@ -7,66 +7,57 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-size: 100%;
 }
-/* Asterisk wildcard selector is used to over ride default styles added by the browser */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}   
+
  /* Heading styles home page */ 
-h1, h2 {
+h1 {
     font-family: Libre, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffff;
+    font-size: 20px;
+  }
+
+h4 {
+    font-family: Lato, sans-serif;
     text-align: center;
     text-transform: initial;
     letter-spacing: 2px;
     color: #ffff;
-  }
-
-h4, h6, p {
-    font-family: Lato, sans-serif;
-    text-align: center;
-    text-transform: lowercase;
-    letter-spacing: 2px;
-    color: #ffff;
+    font-size: 16px;
 }
-/* Main section*/
-/* Enlarge main element take up any surplus space to push footer down */
-Main {
-flex: 1 0 auto;
-  margin-top: 47px;
-  /* Enable flex properties for child elements */
-  display: flex;
-  flex-direction: column;
-   }
+p {
+  font-family: Lato, sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  color: #ffff;
+  font-size: 10px;
+}
+/* Header */
 
-   .hero-image {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    background: url("../assets/images/freepik-cover-neural.jpg") no-repeat center center/cover;
-    height: 100vh;
+/* Main section*/
+
 /* Position and center the image to scale nicely on all screens */
-    align-self: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    z-index: 1;  
-  }
+ 
   .responsive {
     width: 100%;
     height: auto;
   }
-  
-    
-/* Hero text in middle of the image */
+     
+/* Hero text section */
+#intro {
+  height: 600px;
+  width: 100%;
+  background: url("../images/freepik-cover-neural.jpg") no-repeat center center/cover;
+  position: relative;
+}
 .hero-text { 
   font-size: 130%;
   position: absolute;
+  text-align: center;
   bottom: 30px;
   width: 80%;
   min-height: 200px;
@@ -75,8 +66,8 @@ flex: 1 0 auto;
 }
 
  /* Discover call-to-action button section */
- .d-call-to-action {
-  border: none;
+ .d-button {
+  border-radius: 2em;
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
@@ -85,22 +76,27 @@ flex: 1 0 auto;
   text-align: center;
   cursor: pointer;
 } 
-.d-call-to-action button:hover {
+.d-button:hover {
   background-color: #555;
   color: white;
 }
 }
 
-/* Navbar hamburger style with dropdown toggle */
-nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
+/* header */
+header {
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+header a {
+  text-decoration: none;
+  color: inherit;
 }
 /* Nav toggle */
 #nav-toggle:checked~nav {
@@ -121,7 +117,37 @@ nav {
 #menu > li {
     margin-bottom: 1em;
 }
+.active {
+  border-bottom: 1px solid #3a3a3a;
+}
+/* Navbar styles with dropdown toggle */
+nav {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%;
+}
+#nav-toggle {
+  display: none;
+}
 
+.nav-toggle-label {
+  font-size: 2rem;
+}
+/* Main Content */
+main {
+  /* Enlarge main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+/* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+/* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+     }
 
 
 
@@ -147,11 +173,11 @@ nav {
 #social-networks i {
   font-size: 160%;
   padding: 5%;
-  color: #3a3a3a;
+  color: #ffffff;
 }
 
 /* Footer compliance bar */
-#footerBlocksBottom {
+#footerblockcolor {
   background-color: #003135;
   box-sizing: border-box;
   margin: 0;
@@ -159,24 +185,20 @@ nav {
   padding: 0;
 }
 /* Footer compliance text */
-#colouredbar  {
+.footerbartext  {
   color: #ffff;
-  position: relative;
-  b
+  position: centered;
 }
 /* Media query scetion for all device sizes */
 
 /* Responsive Mobile Sizes */
 @media only screen and (max-width: 500px) {
-.footerbar {
-  position: centered; 
+#footerblockcolor {
+  position: relative; 
   width:100%;
   margin:0 auto;
       }
 
-      .hero-image {
-
-      }
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
