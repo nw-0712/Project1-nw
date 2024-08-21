@@ -4,28 +4,92 @@
 
 /*  General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  
-/*  Generic project styles */
-    color: #003135;
-    font-family: Lato, sans-serif;
-  }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* Asterisk wildcard selector is used to over ride default styles added by the browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}   
+ /* Heading styles home page */ 
 h1, h2 {
     font-family: Libre, sans-serif;
-    text-transform: uppercase;
+    text-align: center;
+    text-transform: initial;
     letter-spacing: 2px;
     color: #ffff;
   }
 
-h4, h6 {
+h4, h6, p {
     font-family: Lato, sans-serif;
+    text-align: center;
     text-transform: lowercase;
     letter-spacing: 2px;
-    color: #003135 ;
+    color: #ffff;
 }
-/* Header */
+/* Main section*/
+/* Enlarge main element take up any surplus space to push footer down */
+Main {
+flex: 1 0 auto;
+  margin-top: 47px;
+  /* Enable flex properties for child elements */
+  display: flex;
+  flex-direction: column;
+   }
+
+   .hero-image {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background: url("../assets/images/freepik-cover-neural.jpg") no-repeat center center/cover;
+    height: 100vh;
+/* Position and center the image to scale nicely on all screens */
+    align-self: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 1;  
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+    
+/* Hero text in middle of the image */
+.hero-text { 
+  font-size: 130%;
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+ /* Discover call-to-action button section */
+ .d-call-to-action {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #501336;    
+  background-color: #e5e7e9;
+  text-align: center;
+  cursor: pointer;
+} 
+.d-call-to-action button:hover {
+  background-color: #555;
+  color: white;
+}
+}
 
 /* Navbar hamburger style with dropdown toggle */
 nav {
@@ -57,60 +121,13 @@ nav {
 #menu > li {
     margin-bottom: 1em;
 }
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-/* Main Content */
-  #hero {
-    background: url("../assets/images/freepik-cover-neural.jpg") no-repeat center center/cover;
-    height: 90%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
-}
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
 
- /* Discover call-to-action button section */
- #call-to-action {
-   
-  }
-  .call-to-action {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: #501336;    
-    background-color: #e5e7e9;
-    text-align: center;
-    cursor: pointer;
-  } 
-  .call-to-action button:hover {
-    background-color: #555;
-    color: white;
-  }
-#hero-text { 
-  font-size: 130%;
-  position: absolute;
-  bottom: 30px;
-  width: 80%;
-  min-height: 200px;
-  padding-top: 40px;
-  padding-left: 10px;
-}
+
+
+
 
 /* Products & Services section */
 
-/* Contact us section */
 
 /* Sign up form */
 
@@ -119,7 +136,7 @@ nav {
 /* Google maps integration */
 
 
-/* Footer */
+/* Social networks */
 #social-networks {
   text-align: center;
   padding: 20px 0;
@@ -133,7 +150,7 @@ nav {
   color: #3a3a3a;
 }
 
-/* Footer bar */
+/* Footer compliance bar */
 #footerBlocksBottom {
   background-color: #003135;
   box-sizing: border-box;
@@ -147,19 +164,24 @@ nav {
   position: relative;
   b
 }
+/* Media query scetion for all device sizes */
 
 /* Responsive Mobile Sizes */
 @media only screen and (max-width: 500px) {
-footer {
-    .centered; 
-    .footer-logo {
-    width:100%;
-      margin:0 auto;
+.footerbar {
+  position: centered; 
+  width:100%;
+  margin:0 auto;
       }
+
+      .hero-image {
+
+      }
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 }
-#hero {
+.hero-image {
   column-count: 2;
   column-gap: 0;
 }
@@ -167,7 +189,8 @@ footer {
   /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 }
-/*  Header */  
+
+/*  Navigation */  
 nav {
   display: block; 
   position: relative;
@@ -183,10 +206,13 @@ nav {
   #menu > li {
   padding-left: 1rem;
   }
+
   .nav-toggle-label {
     display: none;
     }
-    #logo {
+  
+   /* Logo section */ 
+    .logo {
       position: relative;
       line-height: 75px;
       margin: 0 0.5rem;
@@ -194,23 +220,20 @@ nav {
     
    /* Main content */
    main {
-    /* Push the main content down to accomodate the larger header */
-   margin-top: 79px;
+    
+  
   }
 
-  /* Hero image */
-  #cover-text {
-  width: 300px;
-  right: 50px;
-}
+
 /* Larger devices (laptops & desktops) larger (992px and up) */
 @media screen and (min-width: 992px) {
   #menu a:hover{
       border-bottom: 1px solid #3a3a3a;
       }
-  #colouredbar  {
+
+  .footerbar  {
     padding: 16px;
-        font: 16px / 1.5 'Open Sans', sans-serif;
+        font: 16px / 1.5 Lato, sans-serif;
         text-align: center;
         color: #FFFFFF;
       }
