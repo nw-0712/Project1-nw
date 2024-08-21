@@ -36,7 +36,57 @@ p {
   color: #ffff;
   font-size: 10px;
 }
-/* Header */
+
+/* style nav icon */
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-arrow {
+  width: 38px;
+  height: 14px;
+  position: absolute;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  opacity: 0.5;
+  transition: (ease 1s);
+  animation: bouncey 1.6s linear infinite 
+  //:border 1px solid gold; 
+}
+ul {
+  list-style: none;
+}
+  li {
+    width: 24px;
+    height: 4px;
+    background-color: #FFFFFF;
+    &:nth-child(1)
+    left: ;
+    top: 0;
+    position: absolute;
+    transform: (rotate(45deg));
+    border-radius: (5px 0 0 5px);
+    &:nth-child(2)
+    left: 14px;
+    position: absolute;
+    border-radius: (0 5px 5px 0);
+    top: 0;
+    transform: (rotate(-45deg));
+    &:hover;
+    opacity: 1
+  }
+  @keyframes bouncey 0% {
+  transform: (translateY(0)) 50%
+  transform: (translateY(4px)) 100%
+  transform: (translateY(0))
+  }
 
 /* Main section*/
 
@@ -48,11 +98,12 @@ p {
   }
      
 /* Hero text section */
-#intro {
+#maincontent {
   height: 600px;
   width: 100%;
   background: url("../images/freepik-cover-neural.jpg") no-repeat center center/cover;
   position: relative;
+  z-index: -1;
 }
 .hero-text { 
   font-size: 130%;
@@ -63,6 +114,8 @@ p {
   min-height: 200px;
   padding-top: 40px;
   padding-left: 10px;
+  z-index: 99;
+
 }
 
  /* Discover call-to-action button section */
@@ -71,15 +124,15 @@ p {
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
-  color: #501336;    
+  color: #003135;    
   background-color: #e5e7e9;
   text-align: center;
   cursor: pointer;
+  z-index: 99;
 } 
 .d-button:hover {
   background-color: #555;
   color: white;
-}
 }
 
 /* header */
@@ -198,6 +251,7 @@ main {
   width:100%;
   margin:0 auto;
       }
+    }
 
 
 /* Media query: large or landscape phones (576px and up) */
