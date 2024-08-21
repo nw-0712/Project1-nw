@@ -60,7 +60,7 @@ p {
   animation: bouncey 1.6s linear infinite 
   //:border 1px solid gold; 
 }
-ul {
+  ul {
   list-style: none;
 }
   li {
@@ -206,6 +206,9 @@ main {
 
 
 /* Products & Services section */
+
+
+ /* Heading styles home page */ 
 
 
 /* Sign up form */
