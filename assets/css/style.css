@@ -2,24 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 /*  General styles */
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: 100%;
+  font-size: 16px;
 }
 /* General heading styles home page */ 
 h1 {
   font-family: Libre, sans-serif;
   text-align: center;
   text-transform: uppercase;
+  font-style: 10vw;
   letter-spacing: 2px;
   color: #ffff;
   font-size: 20px;
 }
 .hidden-heading {
-  display: none;
+  display: flex;
 }
 h4, p {
   font-family: Lato, sans-serif;
@@ -29,67 +36,31 @@ h4, p {
   color: #ffff;
   font-size: 16px;
 }
-p {
-font-family: Lato, sans-serif;
-text-align: center;
-text-transform: lowercase;
-letter-spacing: 2px;
-color: #ffff;
-font-size: 10px;
-}
-
-/* Main section Container */
-#containerhero {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* Hero section - logo + hero image & text */
-.hero-logo img {
-  position: absolute;
-  transform: translateX(-80%);
-  height: 10px;
-  width: 10px;
-  padding-top: 60px;
-  color: #ffffff;
-  z-index: 999; 
-}
-
-.hero-text { 
-  font-size: 130%;
-  color: #FFFFFF;
-  position: absolute;
-  text-align: center;
-  min-height: 200px;
-  padding-top: 40px;
-  padding-left: 10px;
-  z-index: 999;
-}
-
-.hero-image {
-  height: 100%;
-  position: absolute;
-  background-position: center;
-  background-size: cover;
-  background: url("../images/freepik-cover-neural.jpg") no-repeat center center/cover;
-  position: relative;
-  z-index: -1;
-}
 
 /* Header section */
+
 header {
   background-color: none;
-  padding: 0 1rem;
-  position: fixed;
+  padding: 0 2rem;
+  width: 100%;
+  position: relative;
   z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  text-align: right;
+}
+header a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+#menu ul a {
+  color: #3a3a3a;
 }
 /* Nav toggle */
 #nav-toggle:checked~nav {
   display: block;
+  color: #3a3a3a;
 }
 #nav-toggle {
   display: none;
@@ -97,11 +68,13 @@ header {
 
 .nav-toggle-label {
   font-size: 2rem;
+  color: #3a3a3a;
 }
 #menu {
   letter-spacing: 4px;
   font-size: 110%;
   list-style-type: none;
+  color: #3a3a3a;
 }
 #menu > li {
   margin-bottom: 1em;
@@ -129,16 +102,55 @@ z-index: 999;
 
 .nav-toggle-label {
 font-size: 2rem;
-color: #FFFFFF;
 z-index: 999;
+color: #22282A;
 }
 
-/* Style chevron icon */
-.nav-arrow {
-color: #ffffff;
-}
   
+/* Main section container home page*/
+#containerhero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Hero section - logo + hero image & text */
+.hero-logo {
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+  margin-left: 105px ;
+	margin-bottom: 230px;
+	border:none;
+  transform: translateX(-80%);
+  color: #ffffff;
+  z-index: 999; 
+}
 
+.hero-text { 
+  font-size: 130%;
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+  z-index: 999;
+}
+
+.hero-image {
+  height: 100%;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  position: absolute;
+  background-size: cover;
+  background: url("../images/freepik-cover-neural.jpg") no-repeat center center/cover;
+  position: relative;
+  z-index: -1;
+}
 /* Position and center the image to scale nicely on all screens */
 .responsive {
   width: 250%;
@@ -146,7 +158,6 @@ color: #ffffff;
   }
   #footerblockcolor{
   position: relative;
-
   }
      
 
@@ -173,15 +184,6 @@ color: #ffffff;
   color: #ffffff;
 }
 
-/* Chevron arrow */
-.chevron-arrow {
- align-items: center;
- position: absolute;
- z-index: 999;
-}
-.chevron-arrow a {
-
-}
 
 /* Main Content */
 main {
@@ -195,26 +197,51 @@ main {
      }
 
 
+/* Products & Services page - all content */
 
-/* Products & Services page */
+/* Products section */
 #products {
-  background-color: #e5e7e9;
+  background-color: #F2F3F4;
   flex-direction: column;
-  position: relative;
+  position: absolute;
+  text-align: left;
+  margin-left: 15px;
+  width: 100%;
+  height: 100%;
 }
 
-.heading1, heading2 {
+.heading1, .heading2 {
   color: #22282A;
   text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #F2F3F4;
 }
-
+h6 {
+  color: #22282A;
+  background-color: #F2F3F4;
+  text-align: left;
+  margin-left: 15px; 
+}
 .product-info {
   color: #22282A;
-  background-color: #e5e7e9;
+  background-color: #F2F3F4;
   text-align: left;
+  margin-left: 15px;
+}
+.product-info p {
+  color: #22282A;
+  background-color: #F2F3F4;
+  text-align: left;
+  margin-left: 15px;
+  font-size: 10px;
 }
 #products-list > li {
-text-align: left;  
+text-align: left;
+color: #22282A;
+background-color: #F2F3F4;
+margin-left: 50px;
+font-size: 10px;  
 }
 
 /* Top-left logo placement */
@@ -224,6 +251,7 @@ text-align: left;
   position: absolute;
   top: 8px;
   left: 16px;
+  background-color: #F2F3F4;
 }
 .small-logo img {
   position: relative;
@@ -233,14 +261,8 @@ text-align: left;
   cursor: pointer;
 }
 
-}
-.prod-service {
-  height: 100%;
-  position: absolute;
-  bottom: 8px;
-  right: 10px;
-  text-align: center;
-}
+
+/* Middle section - video media */
 #videos img {
   position: relative;
   height: 100%;
@@ -253,6 +275,8 @@ text-align: left;
 .headingvideos p {
   text-align: left;
 }
+
+/* Testimonial section */
 
 /* Container holding the testimony image and the text */
 #container-testimony {
@@ -272,8 +296,14 @@ text-align: left;
   padding-right: 20px;
   text-align: left;
 }
-
-/* Contact us form */
+.prod-service {
+  height: 100%;
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  text-align: center;
+}
+/* Contact us page (form) */
 body {font-family: Lato, sans-serif;}
 * {box-sizing: border-box;}
 
@@ -317,6 +347,7 @@ body {font-family: Lato, sans-serif;}
   font-size: 280%;
   padding: 0 20px;
 }
+
 /* Google maps integration */
 function myMap() {
   var mapProp= {
@@ -375,10 +406,6 @@ function myMap() {
   margin:0 auto;
   z-index: -1;
       }
-    
- .prod-service {
-    }
-
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -387,8 +414,6 @@ function myMap() {
 }
 }
 
-  
-}
 
   /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -400,6 +425,9 @@ function myMap() {
     left: 0;
     transform: none;
   }
+  body {
+    font-size: 18px;
+}
 
 /*  Navigation bar */  
 nav {
@@ -461,10 +489,25 @@ nav {
     text-align: center;
     color: #FFFFFF;
       }
+  body {
+    font-size: 19px;
+    }
     }
       /* Larger devices (laptops & desktops) larger (1,200px and up) */
 @media screen and (min-width: 1200px) {
-#colouredbar {
+  #comms {
+display: flex;
+flex-direction: row;
+  }
 
+  #communication > div {
+flex: 1;
+  }
+ #googlemap {
+  align-self: flex-end;
+ } 
+ body {
+  font-size: 20px;
+}
 }
 }
