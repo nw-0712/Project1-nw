@@ -36,6 +36,10 @@ d. Testing tools</br>
 a. Github pages & Libraries</br>
 
 **RESOURCES**</br>
+a. Best practises</br>
+b. Code for Google maps integration</br>
+c. Image libraries</br>
+d. Icon libraries</br>
 
 
 
