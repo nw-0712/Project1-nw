@@ -54,3 +54,69 @@ COPD Management, overcoming MS, migraine relief, Improve your metabolism, improv
 
 <!-- Main content -->
 <main>
+
+<!-- Contact from section -->
+<h2>Contact Our Team</h2>
+    <div class="contact-form-container">
+    <form id="signup-form" method="POST" action="/action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="phonenumber">Phone Number</label>
+    <input type="text" id="phone" name="phonenumber" placeholder="Phone number..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+    <option value="netherlands">Netherlands</option>
+    <option value="france">France</option>
+    <option value="uk">United Kingdom</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <button type="submit" class="Send" value="Send">
+</form>
+</div>
+
+<!-- Communication options -->
+<section id="comms">
+    <h2 class="hidden-heading">Communication options</h2>
+    <div id="communication">
+
+    <div>
+    <p>Message us <i class="fa-solid fa-message-lines"></i></p>
+    </div>
+    <hr>
+
+    <div>
+    <p>Contact our community <i class="fa-solid fa-group-arrows-rotate"></i></p>
+    </div>
+    <hr>
+
+    <div>
+    <p>Call us <i class="fa-solid fa-phone-volume"></i></p>
+    </div>
+    <hr>
+
+    <div>
+    <p>Resolution center <i class="fa-solid fa-handshake"></i></p>
+    </div>
+    <hr>
+
+    <div>
+    <p>Join our community <i class="fa-solid fa-people-group"></i></p>
+    </div>
+
+    <!-- Google map section integration-->
+    <section id="googlemap">
+    <img src="assets/images/googlemap.png" alt="Google map image" class="responsive"></a> 
+    <div id="googleMap" style="width:50%;height:400px;"></div>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script> 
+    </script>
+</section>

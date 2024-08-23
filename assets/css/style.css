@@ -69,6 +69,7 @@ font-size: 10px;
 
 .hero-image {
   height: 100%;
+  position: absolute;
   background-position: center;
   background-size: cover;
   background: url("../images/freepik-cover-neural.jpg") no-repeat center center/cover;
@@ -76,7 +77,6 @@ font-size: 10px;
   z-index: -1;
 }
 
- 
 /* Header section */
 header {
   background-color: none;
@@ -144,6 +144,10 @@ color: #ffffff;
   width: 250%;
   position: relative;
   }
+  #footerblockcolor{
+  position: relative;
+
+  }
      
 
  /* Discover call-to-action button section */
@@ -167,9 +171,17 @@ color: #ffffff;
 .discover-button:hover {
   background-color: #003135;
   color: #ffffff;
-
 }
 
+/* Chevron arrow */
+.chevron-arrow {
+ align-items: center;
+ position: absolute;
+ z-index: 999;
+}
+.chevron-arrow a {
+
+}
 
 /* Main Content */
 main {
@@ -185,16 +197,71 @@ main {
 
 
 /* Products & Services page */
-body {
-
-}
-/* Container holding the image and the text */
-.container {
+#products {
+  background-color: #e5e7e9;
+  flex-direction: column;
   position: relative;
-  font-family: Lato;
 }
 
-/* Bottom right text block testimonial */
+.heading1, heading2 {
+  color: #22282A;
+  text-align: left;
+}
+
+.product-info {
+  color: #22282A;
+  background-color: #e5e7e9;
+  text-align: left;
+}
+#products-list > li {
+text-align: left;  
+}
+
+/* Top-left logo placement */
+#toplogo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.small-logo img {
+  position: relative;
+  width: 150px;
+  float:left;
+  margin-top:16px;
+  cursor: pointer;
+}
+
+}
+.prod-service {
+  height: 100%;
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  text-align: center;
+}
+#videos img {
+  position: relative;
+  height: 100%;
+}
+.headingvideos {
+  text-align: left;
+  position: relative;
+  color: #22282A;
+}
+.headingvideos p {
+  text-align: left;
+}
+
+/* Container holding the testimony image and the text */
+#container-testimony {
+  position: relative;
+  text-align: bottom-right;
+  color: white;
+}
+
+/* Bottom right - testimonial */
 .text-block {
   position: absolute;
   bottom: 20px;
@@ -206,15 +273,58 @@ body {
   text-align: left;
 }
 
- /* Heading styles home page */ 
+/* Contact us form */
+body {font-family: Lato, sans-serif;}
+* {box-sizing: border-box;}
 
+.input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
-/* Sign up form */
+.input[type=submit] {
+  background-color: #22282A;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-/* Newsletter sign-up */
+.input[type=submit]:hover {
+  background-color: #22282A;
+}
+.contact-form-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
+/* Communication options section */
+#comms {
+  width: 90%;
+  margin: 20px auto;
+}
+#communication p {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 280%;
+  padding: 0 20px;
+}
 /* Google maps integration */
-
+function myMap() {
+  var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+  };
+  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  }
 
 /* Social networks */
 #social-networks {
@@ -236,6 +346,7 @@ body {
 /* Footer compliance bar */
 #footerblockcolor {
   background-color: #003135;
+  position: relative;
   box-sizing: border-box;
   margin: 0;
   width: 100%;
@@ -244,6 +355,7 @@ body {
   position: relative;
   height: 100%;
   z-index: -1;
+  background-size: cover;
 }
 /* Footer compliance text */
 .footertext p {
@@ -253,7 +365,7 @@ body {
   bottom: 5px;
   text-align: center;
 }
-/* Media query scetion for all device sizes */
+/* Media query section for all device sizes */
 
 /* Responsive Mobile Sizes */
 @media only screen and (max-width: 500px) {
@@ -263,11 +375,16 @@ body {
   margin:0 auto;
   z-index: -1;
       }
+    
+ .prod-service {
     }
 
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+#hero-image {
+  column-count: 2;
+}
 }
 
   
@@ -283,9 +400,8 @@ body {
     left: 0;
     transform: none;
   }
-}
 
-/*  Navigation */  
+/*  Navigation bar */  
 nav {
   display: block; 
   position: relative;
@@ -313,24 +429,37 @@ nav {
       margin: 0 0.5rem;
       }
     
-   /* Main content */
-  
-    
-  
+   /* Hero content */
+  #hero-image {
+    width: 300px;
+    right: 50px;
   }
-
-
+  /* Social Media */
+  #social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+  #social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #FFFFFF;
+  }
+}
 /* Larger devices (laptops & desktops) larger (992px and up) */
 @media screen and (min-width: 992px) {
   #menu a:hover{
-      border-bottom: 1px solid #3a3a3a;
+  background-color: #003135;
+  border-bottom: 1px solid;
       }
 
   .footerbartext  {
     padding: 16px;
-        font: 10px / 1.5 Lato, sans-serif;
-        text-align: center;
-        color: #FFFFFF;
+    font: 10px / 1.5 Lato, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
       }
     }
       /* Larger devices (laptops & desktops) larger (1,200px and up) */
