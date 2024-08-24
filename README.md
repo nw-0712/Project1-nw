@@ -1,13 +1,47 @@
 
 Welcome Users,
 
-NEUROXCEL FUSION INSITITUTE </br>
+**NEUROXCEL FUSION INSITITUTE** </br>
 Biohacking supported by cutting-edge technologies to accelerate your health and wellness</br>
 
 Users of this website will be able to gain an understanding of biohacking, the different types of biohacking and the different practises, therapies and mix of professionals used for specific areas of focus, with a mix of information channels on the site supported by rich media in the form of blogs, videos and podcasts.
 
 OVERVIEW</br>
 The site also provides the users a clear outline of the institute, their vison, mission and purpose which is to help, support, heal and accelerate everyone’s wellbeing mentally and physical, along with their environments.
+
+**CONTENTS:**</br>
+1.<u>User experience (ux)<u></br>
+a. Project goals</br>
+b. Epics & user stories</br>
+c. Colours</br>
+d. Typography (fonts)</br>
+e. Wireframes</br>
+
+**FEATURES & FUNCTIONALITY**</BR>
+a. Home page</br>
+b. Products & Services page</br>
+c. Contact us page</br>
+
+**TECH STACK & LANGUAGES**</br>
+a. Languages</br>
+b. Technology</br>
+
+**TESTING**</br>
+a. User stories</br>
+b. Code valildation</br>
+c. Accessibility & scores</br>
+d. Testing tools</br>
+
+**DEPLOYMENT**</br>
+a. Github pages & Libraries</br>
+
+**RESOURCES**</br>
+a. Best practises</br>
+b. Code for Google maps integration</br>
+c. Image libraries</br>
+d. Icon libraries</br>
+
+
 
 HOME PAGE</br>
 The pages included in this project are the home page, where the users can discover more about the institute, contact them, and adjust the accessibility settings to suit their specific needs and access the other pages through the top navigation or ‘hamburger’ drop-down menu.
