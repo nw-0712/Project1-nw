@@ -10,7 +10,7 @@ OVERVIEW</br>
 The site also provides the users a clear outline of the institute, their vison, mission and purpose which is to help, support, heal and accelerate everyone’s wellbeing mentally and physical, along with their environments.
 
 **CONTENTS:**</br>
-1.<u>User experience (ux)<u></br>
+1.<link>User experience (ux)link></br>
 a. <u>Project goals<u></br>
 b. <u>Epics & user stories<u></br>
 c. <u>Colours<u></br>
