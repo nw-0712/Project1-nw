@@ -30,7 +30,7 @@ h1, h2 {
   display: flex;
 }
 
-h4 {
+h4, h6 {
   font-family: Lato, sans-serif;
   text-align: left;
   text-transform: initial;
@@ -123,66 +123,67 @@ color: #22282A;
   
 /* Main section container home page*/
 #containerhero {
-  justify-content: center;
-  align-items: center;
-  z-index: -1;
+  text-align: center;
   background-color: none;
+  height: 600px;
+  width: 100%;
+  justify-content: center;
+  position: relative;
 }
 
 /* Hero section - logo + hero image & text */
-.hero-logo {
+#hero-logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   position: absolute;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin-top: 200px;
-  margin-left: 250px;
-	margin-bottom: 230px;
 	border:none;
   transform: translateX(-80%);
   color: #ffffff;
-  z-index: 999; 
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  padding-bottom: 70px; 
+  background: url("../logos/output-onlinepngtools.png") no-repeat center center/cover;
 }
 
-.hero-text h1 { 
-  font-size: 130%;
+#hero-text { 
   color: #FFFFFF;
   position: absolute;
   text-align: center;
-  align-items: center;
-  margin-top: 220px;
-  padding-left: 80px;
+  z-index: 999;
 }
-.hero-text h4 { 
+
+#hero-text h1 { 
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  padding-top: 50px;
+}
+#hero-text h4 { 
   font-size: 16px;
   color: #FFFFFF;
-  align-items: center;
   position: absolute;
   text-align: center;
   margin-top: 90px;
-  padding-top: 250px;
-  padding-left: 80px;
 }
-.hero-text { 
+
+#hero-text p { 
   color: #FFFFFF;
   position: absolute;
   text-align: center;
-  align-items: center;
-  width: fit-content;
+  padding: 0;
 }
 
+#hero-image img {
+    position: relative;
+    align-items: center;
+    border:none;
+    color: #ffffff;
+    z-index: -1;
+    background: url("../logos/output-onlinepngtools.png") no-repeat center center/cover;
+  }
 
-#hero-image {
-  height: 100%;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background: url("../images/freepik-cover-neural.jpg") no-repeat center center/cover;
-  z-index: -1;
-}
 
 /* Position and center the image to scale nicely on all screens */
 .responsive {
@@ -196,7 +197,7 @@ color: #22282A;
      
 
  /* Discover call-to-action button section */
- .discover-button {
+ #discover-button {
   outline: 0.2 white;
   position: absolute;
   display: inline-block;
@@ -210,11 +211,11 @@ color: #22282A;
   z-index: 999;
   font: Lato;
 } 
-.discover-button a {
-  color: #ffffff;
+#discover-button a {
+  color: #FFFFFF;
 }
-.discover-button:hover {
-  background-color: #003135;
+#discover-button:hover {
+  background-color: none;
   color: #ffffff;
 }
 
@@ -486,43 +487,65 @@ body {font-family: Lato, sans-serif;}
 
 /* Newsletter section */
 
-#subscribe {
+#subscribe-container {
+  font-family: Lato;
+  line-height: none;
+  position: relative;
+  margin: 20px;
+  max-width: 300px;
+  padding: 14px;
+  background-color: none;
+  padding-top: 10px;
+}
+
+/* background image for subscription form */
+#subscribe-container img {
+  background: url("../images/flames-ignite--ai.jpg") no-repeat center center/cover;
+  position: relative;
   background-size: cover;
-  background-position: 75%;
-  padding: 20px 10% 0 10%;
-  flex-grow: 1;
-  font-family: Lato; 
-}
-#subscribe-form h6 {
-  text-align: left;
-  width: 100%;
-  margin-top: 50px;
-  padding: 0;
-  font-size: 12px;
-  color: #22282A;
+  z-index: -1;
 }
 
+
+/* overlay subscription form */  
 #subscribe-form p {
-  text-align: left;
-  margin: 20px auto;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
   color: #22282A;
-  padding: 0 20px;
-  font: 10px;
 }
 
-#subscribe-form>h2 {
-  color: #fafafa;
-  margin-bottom: 20px;
- }
- #signup-form {
-  color: #ffffff;
-  padding: 30px;
+#subscribe-form>h6 {
+  color: #22282A;
+  padding-left: 20px;
+  background-color: #FFFFFF;
+  z-index: 999;
  }
 
- #subscribe-form button {
-  background-color: #501336;
-  color: #fafafa;
+ #subscribe-form {
+  padding: 16px 20px;
+  cursor: pointer;
+  width: 100%;
+  z-index: 999;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
  }
+
+ #sunscribe-form button {
+  background-color: #22282A;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+ }
+
 /* Google maps integration */
 #google-map {
   padding-bottom: 50%;
@@ -595,9 +618,7 @@ body {font-family: Lato, sans-serif;}
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-#hero-image {
-  column-count: 2;
-}
+
 #communication-row {
   column-count: 2;
   column-gap: 0;
@@ -639,16 +660,14 @@ nav {
   .nav-toggle-label {
     display: none;
     }
-  
-   /* Logo section */ 
-    .logo {
-      position: relative;
-      line-height: 75px;
-      margin: 0 0.5rem;
-      }
+  /* Main content */
+  main {
+    /* Push the main content down to accomodate the larger header */
+   margin-top: 79px;
+  }
     
    /* Hero content */
-  #hero-image {
+  #hero-text {
     width: 300px;
     right: 50px;
   }
@@ -689,9 +708,24 @@ nav {
   #communication-row{
     column-count: 4;
    } 
+
+   /* Footer */
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
+}
   }
     }
-      /* Larger devices (laptops & desktops) larger (1,200px and up) */
+      
+/* Larger devices (laptops & desktops) larger (1,200px and up) */
 @media screen and (min-width: 1200px) {
   #comms {
 display: flex;
