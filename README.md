@@ -43,12 +43,29 @@ d. Icon libraries</br>
 
 
 
-USER EXPERIENCE (UX)</br>
+**USER EXPERIENCE (UX)**</br>
 Project Goals</br>
-Bring your own idea(s) to life, based on providing value to users to address a specific real or imagined need. Use the relevant project assessment criteria as a guide to the minimum required functionality.
-The learner has a clear rationale for the development of this project and has produced a fully functioning, well-documented website for a real-life audience.
+a. Bring your own idea(s) to life, based on providing value to users to address a specific real or imagined need. 
+b. Use the relevant project assessment criteria as a guide to the minimum required functionality.
+c. There is a clear rationale for the development of this project.
+d. A fully functioning, well-documented website.
+e. Well-defined purpose addressing a particular target/multiple audience. 
+f. Its purpose would be immediately evident to a new user. 
+g. The website’s design follows the principles of UX design and accessibility guidelines, and the site is fully responsive.
 
-The finished project has a clear, well-defined purpose addressing a particular target audience (or multiple related audiences). Its purpose would be immediately evident to a new user without having to look at supporting documentation. The website’s design follows the principles of UX design and accessibility guidelines, and the site is fully responsive.
+Epics & user stories</br>
+a. As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.
+b. As a user I want the ability to move through the navigation of the site by lcking on the 'hamburger' bar, and be directed to page of choice.
+c. As a user I wan the ability to easily find the contact informaiton of the company.
+d. As a user I want the ability to click on Google maps and be dorected to the app, so that I can get directions form my location to company.
+e. As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.
+f. As a user I want the ability to easily schedule an appointment with company.
+g. As a user I want the ability to get exact information on the products/services offered by the company.
+h. As a user I want the ability to fill out the contact form so that I can get in contact with the company.
+i. As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.
+j. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.
+
+Colours</br>
 
 HOME PAGE</br>
 The pages included in this project are the home page, where the users can discover more about the institute, contact them, and adjust the accessibility settings to suit their specific needs and access the other pages through the top navigation or ‘hamburger’ drop-down menu.
