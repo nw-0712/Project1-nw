@@ -43,7 +43,8 @@ d. Icon libraries</br>
 
 
 
-PROJECT GOALS</BR>
+USER EXPERIENCE (UX)</br>
+Project Goals</br>
 Bring your own idea(s) to life, based on providing value to users to address a specific real or imagined need. Use the relevant project assessment criteria as a guide to the minimum required functionality.
 The learner has a clear rationale for the development of this project and has produced a fully functioning, well-documented website for a real-life audience.
 
