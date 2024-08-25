@@ -11,11 +11,11 @@ The site also provides the users a clear outline of the institute, their vison, 
 
 **CONTENTS:**</br>
 1.<u>User experience (ux)<u></br>
-a. Project goals</br>
-b. Epics & user stories</br>
-c. Colours</br>
-d. Typography (fonts)</br>
-e. Wireframes</br>
+a. <u>Project goals<u></br>
+b. <u>Epics & user stories<u></br>
+c. <u>Colours<u></br>
+d.<u>Typography (fonts)<u></br>
+e. <u>Wireframes<u></br>
 
 **FEATURES & FUNCTIONALITY**</BR>
 a. Home page</br>
