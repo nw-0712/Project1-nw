@@ -66,6 +66,7 @@ i. As a user I want the ability to enter my personalised message in the 'free-te
 j. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.
 
 Colours</br>
+![colors](https://github.com/user-attachments/assets/cb95ba42-298e-4959-937a-68eafc14faea)
 
 HOME PAGE</br>
 The pages included in this project are the home page, where the users can discover more about the institute, contact them, and adjust the accessibility settings to suit their specific needs and access the other pages through the top navigation or ‘hamburger’ drop-down menu.
