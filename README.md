@@ -24,20 +24,19 @@ c. Contact us page</br>
 
 FEATURES & FUNCTIONALITY</BR>
 Home Page</br>
-*This page is where the users can discover more about the institute, contact them, and access the other pages through the top navigation or ‘hamburger’ drop-down menu.
-*Navigation bar: feaured on all three website pages, that is fully responsive which includes links to the logo, home page, about us page, products & services page and the contact us page.<br>
-*To allow a higher degree of usability I have got the base nav bar at the top which is clikable and a 'hambuger' menu, with a dropdown menu feature which shows all the sections and pages of the website.
+-This page is where the users can discover more about the institute, contact them, and access the other pages through the top navigation or ‘hamburger’ drop-down menu.
+-Navigation bar: feaured on all three website pages, that is fully responsive which includes links to the logo, home page, about us page, products & services page and the contact us page.<br>
+-To allow a higher degree of usability I have got the base nav bar at the top which is clikable and a 'hambuger' menu, with a dropdown menu feature which shows all the sections and pages of the website.
 
 Products & Services page</br>
-This page the users learn more about some of the products & services that the institute offers. They can also learn more about six of the therapies and practises (with the highest user feedback from EU regions) via up-to 5min short movie clips.
-Scheduling: The users can schedule an appointment easily but clikcing on the "call-to-action" button and then pop-up calendar and times are shown to shoose the specific time, day and month for an apopintment.
+-This page the users learn more about some of the products & services that the institute offers. They can also learn more about six of the therapies and practises (with the highest user feedback from EU regions) via up-to 5min short movie clips.
+-Scheduling: The users can schedule an appointment easily but clikcing on the "call-to-action" button and then pop-up calendar and times are shown to shoose the specific time, day and month for an apopintment.
 
 Contact page</br>
-The users can fill out the contact form, and there are several options to communicate with the institute through ‘message us’ click-through-graphic to text company, ‘ask community’ click-through-graphic which directs the user to the community page, ‘call us’ click-through-graphic which shows telephone number and launches the call app of users phone, contact the resolution centre through click-through-graphic which directs the user to the customer services centre (3rd party) to the resolution section or to 'join the global community' click-through-graphic, which directs the user to community page of site.
-This adds to usability to allow the user to click on different communication options to contact the company.
-The users can also click on the map and be directed to Google Maps app to get directions.
-Contact form: users can fill in details and contact institute through this method.
-The users can also click on map and be directed to the Google maps application to get directions to the various offices
+-The users can fill out the contact form, and there are several options to communicate with the institute through ‘message us’ click-through-graphic to text company, ‘ask community’ click-through-graphic which directs the user to the community page, ‘call us’ click-through-graphic which shows telephone number and launches the call app of users phone, contact the resolution centre through click-through-graphic which directs the user to the customer services centre (3rd party) to the resolution section or to 'join the global community' click-through-graphic, which directs the user to community page of site.
+-This adds to usability to allow the user to click on different communication options to contact the company.
+-Contact form: users can fill in details and contact institute through this method.
+-The users can also click on map and be directed to the Google maps application to get directions to the various offices
 
 **USER EXPERIENCE (UX)**</br>
 Project Goals</br>
