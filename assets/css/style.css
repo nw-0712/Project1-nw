@@ -288,6 +288,8 @@ main {
   height: 100%;
   }
 
+  /* Services section */
+
 #services-hero {
   background-color: #F2F3F4;
   text-align: left;
@@ -357,7 +359,7 @@ main {
 }
 
 
-/* Middle column section - video media */
+/* Video section - middle column */
 #video-hero {
   background-color: none;
   text-align: left;
@@ -459,11 +461,11 @@ body {font-family: Lato, sans-serif;}
 
 
 /* Communication options graphic section */
-#comms {
-  width: 70%;
-  margin: 20px auto;
+#comms-options {
+  width: 100%;
+  line-height: 1em;
 }
-#comms h2 {
+#comms-options h2 {
   text-align: center;
   color: #22282A;
   font-size: 20px;
@@ -473,15 +475,54 @@ body {font-family: Lato, sans-serif;}
   margin-left: 20px;
   font-size: 24px;
 }
-#communication-graphics img {
-  background-color: none;
-  width: 80%;
-  height: 80%;
-  display: flex;
-  background-position: center;
-  background-repeat: no-repeat;
+#communication-row img {
+  width: 100%;
+  line-height: 1em;
+  padding: 10px;
+}
+#communication-row {
+  line-height: 0;
 }
 
+/* Newsletter section */
+
+#subscribe {
+  background-size: cover;
+  background-position: 75%;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
+  font-family: Lato; 
+}
+#subscribe-form h6 {
+  text-align: left;
+  width: 100%;
+  margin-top: 50px;
+  padding: 0;
+  font-size: 12px;
+  color: #22282A;
+}
+
+#subscribe-form p {
+  text-align: left;
+  margin: 20px auto;
+  color: #22282A;
+  padding: 0 20px;
+  font: 10px;
+}
+
+#subscribe-form>h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+ }
+ #signup-form {
+  color: #ffffff;
+  padding: 30px;
+ }
+
+ #subscribe-form button {
+  background-color: #501336;
+  color: #fafafa;
+ }
 /* Google maps integration */
 #google-map {
   padding-bottom: 50%;
@@ -557,6 +598,10 @@ body {font-family: Lato, sans-serif;}
 #hero-image {
   column-count: 2;
 }
+#communication-row {
+  column-count: 2;
+  column-gap: 0;
+}
 }
 
 
@@ -620,6 +665,9 @@ nav {
     padding: 5%;
     color: #FFFFFF;
   }
+  #communication-row {
+    column-count: 3;
+  }
 }
 /* Larger devices (laptops & desktops) larger (992px and up) */
 @media screen and (min-width: 992px) {
@@ -637,6 +685,11 @@ nav {
   body {
     font-size: 19px;
     }
+
+  #communication-row{
+    column-count: 4;
+   } 
+  }
     }
       /* Larger devices (laptops & desktops) larger (1,200px and up) */
 @media screen and (min-width: 1200px) {
