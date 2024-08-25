@@ -61,7 +61,8 @@ i. As a user I want the ability to enter my personalised message in the 'free-te
 j. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.
 
 Colours</br>
-![colors](https://github.com/user-attachments/assets/cb95ba42-298e-4959-937a-68eafc14faea)
+![image](https://github.com/user-attachments/assets/c645155a-d682-45a9-8dd2-b153211fa92a)
+
 
 Typography</br>
 Headings and sub-headings: Font used - Libre
