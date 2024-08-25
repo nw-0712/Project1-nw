@@ -43,6 +43,12 @@ d. Icon libraries</br>
 
 
 
+PROJECT GOALS</BR>
+Bring your own idea(s) to life, based on providing value to users to address a specific real or imagined need. Use the relevant project assessment criteria as a guide to the minimum required functionality.
+The learner has a clear rationale for the development of this project and has produced a fully functioning, well-documented website for a real-life audience.
+
+The finished project has a clear, well-defined purpose addressing a particular target audience (or multiple related audiences). Its purpose would be immediately evident to a new user without having to look at supporting documentation. The website’s design follows the principles of UX design and accessibility guidelines, and the site is fully responsive.
+
 HOME PAGE</br>
 The pages included in this project are the home page, where the users can discover more about the institute, contact them, and adjust the accessibility settings to suit their specific needs and access the other pages through the top navigation or ‘hamburger’ drop-down menu.
 
