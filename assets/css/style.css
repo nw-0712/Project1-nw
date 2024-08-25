@@ -11,19 +11,19 @@
 body {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   font-size: 100%;
   font-size: 12px;
+  flex-direction: column;
 }
 /* General heading styles home page */ 
 h1, h2 {
   font-family: Libre, sans-serif;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   font-style: 10vw;
   letter-spacing: 2px;
   color: #ffff;
-  font-size: 100%;
+  font-size: 24px;
   padding-top: 90px;
 }
 .hidden-heading {
@@ -36,12 +36,11 @@ h4 {
   text-transform: initial;
   letter-spacing: 2px;
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: 16px;
   padding-left: 80px;
 }
 p {
   font-family: Lato, sans-serif;
-  text-align: center;
   text-transform: initial;
   letter-spacing: 2px;
   color: #FFFFFF;
@@ -56,6 +55,7 @@ p {
 header {
   background-color: none;
   padding: 0 2rem;
+  display: flex;
   width: 100%;
   position: relative;
   z-index: 999;
@@ -154,7 +154,7 @@ color: #22282A;
   padding-left: 80px;
 }
 .hero-text h4 { 
-  font-size: 130%;
+  font-size: 16px;
   color: #FFFFFF;
   align-items: center;
   position: absolute;
@@ -168,6 +168,7 @@ color: #22282A;
   position: absolute;
   text-align: center;
   align-items: center;
+  width: fit-content;
 }
 
 
@@ -176,10 +177,10 @@ color: #22282A;
   padding-top: 0;
   padding-right: 0;
   padding-bottom: 0;
-  position: absolute;
+  position: relative;
+  background-position: center;
   background-size: cover;
   background: url("../images/freepik-cover-neural.jpg") no-repeat center center/cover;
-  position: relative;
   z-index: -1;
 }
 
@@ -188,6 +189,7 @@ color: #22282A;
   width: 250%;
   position: relative;
   }
+
   #footerblockcolor{
   position: relative;
   }
@@ -232,32 +234,43 @@ main {
 /* Products & Services page - all content */
 
 /* Products column section */
-#product-service-rows {
+#product-hero {
   background-color: #F2F3F4;
-  float: left;
-  width: 100%;
   text-align: left;
   color: #22282A;
-  z-index: -1;
-  column-count: 2;
-  column-gap: 20px;
+  z-index: 999;
   column-rule-width: 1px;
-  column-width: 100px;
+  width: 90%;
+  margin: 20px auto;
+}
+#product-hero h2 {
+  text-align: left;
+  color: #22282A;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 50px;
+  padding: 0;
+  margin-left: 20px;
+ 
 }
 
-.product-column {
+#product-column {
   text-align: left;
-  clear: both;
-  margin-top: 0;
-  padding: 0;
+  color: #22282A;
+  padding: 0 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
 }
-.product-column h2, h6 {
+
+#product-column h6 {
   text-align: left;
   width: 100%;
   margin-top: 50px;
   padding: 0;
+  font-size: 12px;
+  color: #22282A;
 }
-.product-column p {
+#product-column p {
   text-align: left;
   color: #22282A;
   margin: 0 0;
@@ -273,52 +286,59 @@ main {
   width: 100%;
   padding: 1px;
   height: 100%;
-  z-index: -1;  
   }
 
-#service-row {
+#services-hero {
   background-color: #F2F3F4;
-  float: left;
-  width: 100%;
   text-align: left;
   color: #22282A;
-  z-index: -1;
-  column-count: 2;
-  column-gap: 20px;
+  z-index: 999;
   column-rule-width: 1px;
-  column-width: 100px;
+  width: 90%;
+  margin: 20px auto;
 }
 
-.service-overview {
+#services-hero h2 {
   text-align: left;
+  color: #22282A;
+  font-size: 20px;
   width: 100%;
   margin-top: 50px;
   padding: 0;
-  background-color: #F2F3F4;
+  margin-left: 20px;
 }
 
-.service-overview {
+#services-column  {
+  text-align: left;
+  color: #22282A;
+  padding: 0 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#services-column h2 {
   text-align: left;
   color: #22282A;
   margin: 0 0;
   padding: 0;
   width: 100%;
 }
-#services-content {
-  margin: 0 0;
-  padding: 0;
+#services-column h4 {
   text-align: left;
+  width: 90%;
+  margin: 20px auto;
   color: #22282A;
-  background-color: #F2F3F4;
 }
-#services-content h4, p {
+#services-column p {
   text-align: left;
-  width: 100%;
-  margin-top: 50px;
-  padding: 0;
+  margin: 20px auto;
   color: #22282A;
- }
-
+  padding: 0 20px;
+}
+#services-column hr {
+  border-top: 1px solid #3a3a3a;
+  margin: 5px 0;
+}
 /* Top-left logo placement */
 #toplogo {
   width: 50px;
@@ -338,82 +358,88 @@ main {
 
 
 /* Middle column section - video media */
-#video-row {
+#video-hero {
   background-color: none;
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 100%;
+  text-align: left;
+  color: #22282A;
+  z-index: 999;
+  column-rule-width: 1px;
+  width: 90%;
+  margin: 20px auto;
 }
 
-.video-column3 {
-  color: #22282A;
-  content: "";
-  display: table-row;
+#video-hero h2 {
   text-align: left;
-  clear: both;
-  background-color: none;
-}
-.video-column3 h2{
-  background-color: none;
   color: #22282A;
-  text-align: left;
-  margin-left: 15px;
-  margin: 0;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 50px;
   padding: 0;
-  letter-spacing: 5px;
+  margin-left: 20px;
 }
-.video-column3 p {
-  background-color: none;
-  color: #22282A;
-  text-align: left;
-  margin: 0;
-  padding: 0;  
-}
-.video-column3 img {
+
+.video-column img {
   background-color: none;
   width: 100%;
-  
+  height: 100%;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+.video-column p {
+  text-align: left;
+  margin: 20px auto;
+  color: #22282A;
+  padding: 0 20px;
+}
+
+
 /* Testimonial section */
 
-/* Container holding the testimony image and the text */
-#container-testimony {
-  position: relative;
-  text-align: bottom-right;
-  color: white;
+/* Testimony image  */
+#testimony-hero {
+  background-color: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-/* Bottom right - testimonial */
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: none;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+
+/* Contact us page */
+#Contact-our-team {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
+  background-position: 50%;
+  margin: 20px;
+  padding: 20px;
+}
+
+#Contact-our-team h2 {
   text-align: left;
+  color: #22282A;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 50px;
+  padding: 0;
+  margin-left: 20px;
+  font-size: 24px;
 }
-.prod-service {
-  height: 100%;
-  position: absolute;
-  bottom: 8px;
-  right: 10px;
-  text-align: center;
-}
-/* Contact us page (form) */
+
+/* Contact form */
 body {font-family: Lato, sans-serif;}
 * {box-sizing: border-box;}
 
-.input[type=text], select, textarea {
+.input[type=text], textarea {
   width: 100%;
-  padding: 12px;
+  padding: 11px 20px;
   border: 1px solid #FFFFFF;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin: 11px 0;
   resize: vertical;
 }
 
@@ -428,33 +454,49 @@ body {font-family: Lato, sans-serif;}
 
 .input[type=submit]:hover {
   background-color: #22282A;
-}
-.contact-form-container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  color: #f2f2f2;
 }
 
-/* Communication options section */
+
+/* Communication options graphic section */
 #comms {
-  width: 90%;
+  width: 70%;
   margin: 20px auto;
 }
-#communication p {
-  margin-bottom: 20px;
+#comms h2 {
   text-align: center;
-  font-size: 280%;
-  padding: 0 20px;
+  color: #22282A;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
+  margin-left: 20px;
+  font-size: 24px;
+}
+#communication-graphics img {
+  background-color: none;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Google maps integration */
-function myMap() {
-  var mapProp= {
-    center:new google.maps.LatLng(51.508742,-0.120850),
-    zoom:5,
-  };
-  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-  }
+#google-map {
+  padding-bottom: 50%;
+  position: relative;
+  padding-top: 30px;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.google-map iframe {
+  position: relative;
+  padding-top: 30px;
+  margin-left: 0px;
+  margin-right: 20px;
+}
 
 /* Social networks */
 #social-networks {
