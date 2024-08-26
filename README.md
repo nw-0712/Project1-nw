@@ -40,35 +40,37 @@ Contact page</br>
 
 **USER EXPERIENCE (UX)**</br>
 Project Goals</br>
-a. Bring your own idea(s) to life, based on providing value to users to address a specific real or imagined need. 
-b. Use the relevant project assessment criteria as a guide to the minimum required functionality.
-c. There is a clear rationale for the development of this project.
-d. A fully functioning, well-documented website.
-e. Well-defined purpose addressing a particular target/multiple audience. 
-f. Its purpose would be immediately evident to a new user. 
-g. The website’s design follows the principles of UX design and accessibility guidelines, and the site is fully responsive.
+a. Bring your own idea(s) to life, based on providing value to users to address a specific real or imagined need.</br> 
+b. Use the relevant project assessment criteria as a guide to the minimum required functionality.</br>
+c. There is a clear rationale for the development of this project.</br>
+d. A fully functioning, well-documented website.</br>
+e. Well-defined purpose addressing a particular target/multiple audience.</br> 
+f. Its purpose would be immediately evident to a new user.</br> 
+g. The website’s design follows the principles of UX design and accessibility guidelines, and the site is fully responsive.</br>
 
 Epics & user stories</br>
-a. As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.
-b. As a user I want the ability to move through the navigation of the site by lcking on the 'hamburger' bar, and be directed to page of choice.
-c. As a user I wan the ability to easily find the contact informaiton of the company.
-d. As a user I want the ability to click on Google maps and be dorected to the app, so that I can get directions form my location to company.
-e. As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.
-f. As a user I want the ability to easily schedule an appointment with company.
-g. As a user I want the ability to get exact information on the products/services offered by the company.
-h. As a user I want the ability to fill out the contact form so that I can get in contact with the company.
-i. As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.
-j. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.
+a. As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.</br>
+b. As a user I want the ability to move through the navigation of the site by lcking on the 'hamburger' bar, and be directed to page of choice.</br>
+c. As a user I wan the ability to easily find the contact informaiton of the company.</br>
+d. As a user I want the ability to click on Google maps and be dorected to the app, so that I can get directions form my location to company.</br>
+e. As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.</br>
+f. As a user I want the ability to easily schedule an appointment with company.</br>
+g. As a user I want the ability to get exact information on the products/services offered by the company.</br>
+h. As a user I want the ability to fill out the contact form so that I can get in contact with the company.</br>
+i. As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.</br>
+j. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.</br>
 
 Colours</br>
 ![image](https://github.com/user-attachments/assets/c645155a-d682-45a9-8dd2-b153211fa92a)
 
 
 Typography</br>
-Headings and sub-headings: Font used - Libre
-Body copy: Font used - Lato
+Headings and sub-headings: Font used - Libre</br>
+Body copy: Font used - Lato</br>
 
 Wireframes</br>
+![image](https://github.com/user-attachments/assets/3b64a3e2-63d0-40b8-b05e-0c7190315ef8)
+
 
 
 **TECH STACK & LANGUAGES**</br>
