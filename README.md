@@ -71,7 +71,6 @@ Body copy: Font used - Lato sans serif</br>
 Wireframes</br>
 ![image](https://github.com/user-attachments/assets/6e898983-adf9-4a33-b29d-252b064c8af0)
 
-</br>
 ![image](https://github.com/user-attachments/assets/a2b71661-7d9e-4c57-b700-649c18e11eaf)
 
 
