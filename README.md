@@ -69,13 +69,17 @@ Headings and sub-headings: Font used - Libre</br>
 Body copy: Font used - Lato</br>
 
 Wireframes</br>
-![image](https://github.com/user-attachments/assets/3b64a3e2-63d0-40b8-b05e-0c7190315ef8)
+![image](https://github.com/user-attachments/assets/5a5a8f26-756a-4d66-9a6d-31d3eb0cf39c)
 
+![image](https://github.com/user-attachments/assets/ea1965a6-62fb-445b-91d4-734977e684bc)
+![image](https://github.com/user-attachments/assets/6d382684-6602-4cb4-8922-8e2767f203a9)
+</br>
+![image](https://github.com/user-attachments/assets/a2b71661-7d9e-4c57-b700-649c18e11eaf)
 
 
 **TECH STACK & LANGUAGES**</br>
-a. Languages</br>
-b. Technology</br>
+a. Languages: HTML, CSS</br>
+b. Technology: VS desktop, Github, Gitpod, Visme, </br>
 
 **TESTING**</br>
 a. User stories</br>
