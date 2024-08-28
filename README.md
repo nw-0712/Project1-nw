@@ -61,25 +61,23 @@ i. As a user I want the ability to enter my personalised message in the 'free-te
 j. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.</br>
 
 Colours</br>
-![image](https://github.com/user-attachments/assets/c645155a-d682-45a9-8dd2-b153211fa92a)
+![image](https://github.com/user-attachments/assets/c645155a-d682-45a9-8dd2-b153211fa92a | width:100)
 
 
 Typography</br>
 Headings and sub-headings: Font used - Libre</br>
-Body copy: Font used - Lato</br>
+Body copy: Font used - Lato sans serif</br>
 
 Wireframes</br>
-![image](https://github.com/user-attachments/assets/5a5a8f26-756a-4d66-9a6d-31d3eb0cf39c)
+![image](https://github.com/user-attachments/assets/6e898983-adf9-4a33-b29d-252b064c8af0)
 
-![image](https://github.com/user-attachments/assets/ea1965a6-62fb-445b-91d4-734977e684bc)
-![image](https://github.com/user-attachments/assets/6d382684-6602-4cb4-8922-8e2767f203a9)
 </br>
 ![image](https://github.com/user-attachments/assets/a2b71661-7d9e-4c57-b700-649c18e11eaf)
 
 
 **TECH STACK & LANGUAGES**</br>
 a. Languages: HTML, CSS</br>
-b. Technology: VS desktop, Github, Gitpod, Visme, </br>
+b. Technology: VS desktop, Github, Gitpod, Visme, W3C markup, </br>
 
 **TESTING**</br>
 a. User stories</br>
