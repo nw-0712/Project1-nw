@@ -94,12 +94,12 @@ c. Image libraries</br>
 d. Icon libraries</br>
 
 **Research**</br>
-a. Users
-b. User groups
-c. TAM,TOM
-d. Strategy
-e. User benefits
-f. USPs
-g. Competitors
-h. MVP
+a. Users</br>
+b. User groups</br>
+c. TAM,TOM</br>
+d. Strategy</br>
+e. User benefits</br>
+f. USPs</br>
+g. Competitors</br>
+h. MVP</br>
 
