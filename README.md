@@ -10,14 +10,14 @@ OVERVIEW</br>
 The site also provides the users a clear outline of the institute, their vison, mission and purpose which is to help, support, heal and accelerate everyone’s wellbeing mentally and physical, along with their environments.
 
 **CONTENTS:**</br>
-**USER EXPERIENCE (ux)**</br>
+USER EXPERIENCE (ux)</br>
 a. <u>Project goals<u></br>
 b. <u>Epics & user stories<u></br>
 c. <u>Colours<u></br>
 d.<u>Typography (fonts)<u></br>
 e. <u>Wireframes<u></br>
 
-**FEATURES & FUNCTIONALITY**</BR>
+FEATURES & FUNCTIONALITY</br>
 a. Home page</br>
 b. Products & Services page</br>
 c. Contact us page</br>
@@ -38,7 +38,7 @@ Contact page</br>
 -Contact form: users can fill in details and contact institute through this method.
 -The users can also click on map and be directed to the Google maps application to get directions to the various offices
 
-**USER EXPERIENCE (UX)**</br>
+USER EXPERIENCE (UX)</br>
 Project Goals</br>
 a. Bring your own idea(s) to life, based on providing value to users to address a specific real or imagined need.</br> 
 b. Use the relevant project assessment criteria as a guide to the minimum required functionality.</br>
@@ -92,3 +92,14 @@ a. Best practises</br>
 b. Code for Google maps integration</br>
 c. Image libraries</br>
 d. Icon libraries</br>
+
+**Research**</br>
+a. Users
+b. User groups
+c. TAM,TOM
+d. Strategy
+e. User benefits
+f. USPs
+g. Competitors
+h. MVP
+
