@@ -256,7 +256,7 @@ main {
   margin: 20px auto;
 }
 
-#product-hero h2 {
+#product-hero > h2 {
   text-align: left;
   color: #22282A;
   font-size: 20px;
@@ -274,7 +274,7 @@ main {
   margin-bottom: 20px;
 }
 
-#product-column h6 {
+#product-column > h6 {
   text-align: left;
   width: 100%;
   margin-top: 50px;
@@ -283,7 +283,7 @@ main {
   color: #22282A;
 }
 
-#product-column p {
+#product-column > p {
   text-align: left;
   color: #22282A;
   margin: 0 0;
@@ -385,7 +385,7 @@ main {
   margin: 20px auto;
 }
 
-#video-hero h2 {
+#video-hero> h2 {
   text-align: left;
   color: #22282A;
   font-size: 20px;
@@ -403,7 +403,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
-.video-column p {
+.video-column > p {
   text-align: left;
   margin: 20px auto;
   color: #22282A;
@@ -532,7 +532,7 @@ body {font-family: Lato, sans-serif;}
 
 
 /* overlay subscription form */  
-#subscribe-form p {
+#subscribe-form > p {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -621,7 +621,7 @@ body {font-family: Lato, sans-serif;}
 }
 
 /* Footer compliance text */
-#footertext p {
+#footertext > p {
   color: #ffff;
   position: absolute;
   font-size: 0.7em;
@@ -633,25 +633,26 @@ body {font-family: Lato, sans-serif;}
   margin-left: 20%;
 }
 
-.footer-row {
+.bottom-nav-row {
   width: 100%;
   font-size:0.8em;
   margin:1% 0%;
   padding:0.6% 0%;
   color: #f1f1f1;
 }
-.footer-row a:hover {
+.bottom-nav-row a:hover {
   color: #f1f1f1;
 }
-.footer-row ul {
+.bottom-nav-row ul {
   width:100%;
 }
-.footer-row ul li{
+
+.bottom-nav-row ul li{
   display:inline-block;
   margin:0px 30px;
 }
   
-.footer-row a i{
+.bottom-nav-row a i{
   font-size:2em;
   margin:0% 1%;
 }
@@ -774,13 +775,12 @@ main {
     column-count: 3;
 }
 
-
-.footer-row ul li{
+.bottom-nav-row ul li{
   display:block;
   margin:10px 0px;
   text-align:left;
 }
-.footer-row a i{
+.bottom-nav-row a i{
   margin:0% 3%;
 }
 }
