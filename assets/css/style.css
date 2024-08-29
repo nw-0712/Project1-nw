@@ -126,54 +126,30 @@ main {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 620px;
-  width: 200px;
-  height: 200px;
+  margin-top: 200px;
+  width: 80px;
+  height: 80px;
 }
 /* Hero section titles */
 
 .hero-content {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0;
+  margin-top: 0px;
   box-sizing: border-box;
-  margin: 0;
-  padding-top: 0px;
-  padding-left: 0px;
-  color: white;
-}  
-
-.hero-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 999;
-    color: white;
-}
-
-.homepage-content { 
-  position: relative; 
+  padding: 0px;
+  color: none;
+  position: relative;
+  z-index: 999;
   font-family: Libre, sans-serif;
   margin-top: 0px;
-  padding: 0px;
-  margin-top: 0;
-  padding-left: 0px;
-  z-index: 1000;
-  text-align: center;
-  color: #FFFFFF; 
+  text-align: center; 
+  font-size: 160vw;
 }
 
-#homepage-content >h1, #homepage-content >h6 { 
-  color: #FFFFFF;
-  line-height: 1.2;
-  text-align: center;
-  z-index: 1000; 
+.main-titles-content {
+  margin-top: 0px;
+  text-align: center; 
+  font-size: 160vw;
 }
 
 .hero-title > h1 {
@@ -182,6 +158,8 @@ main {
   z-index: 1000;
   padding: 0;
   text-align: center;
+  font-size: 100vw;
+  margin-top: 100px;
 }
 
 .hero-subtitle > h6 {
@@ -190,30 +168,29 @@ main {
   margin: left 30px;;
   padding: 0;
   text-align: center;
+  font-size: 100vw;
+  margin-top: 100px;
 }
 
-/* Hero (home page) background image */
-.hero-image img {
+/* Hero (home page) full background image & call-to-action button */
+.containerhero {
   position: relative;
-  padding-left: 0px;
-  width: auto;
-  height: 100vh;
+  width: 100%;
+  max-width: 400px;
+}
+
+.containerhero img {
   display: flex;
   align-items: center;
   background: url("assets/images/neural.network.cover.f.jpg") no-repeat;
   z-index: -1;
-  margin-top: 0;
+  margin-top: 0px;
   background-size: cover;
   margin-left: -20px;
-  width: 100vw;
+  width: 200vw;
+  padding-top: 0;
 }
 
-
-.hero-image {
-  width: 100%; /* or any custom size */
-  height: 100%; 
-  object-fit: contain;
-}
 
 /* Position and center the image to scale -all devices */
 .responsive {
@@ -222,35 +199,26 @@ main {
 
 
 /* Discover call-to-action button section */
-.discover-button {
+.containerhero .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   background-color: #003135;
   color: white;
-  font-family: Lato, sans-serif;
-  font-size: 1.5rem;
-  z-index: 1000;
-  margin-top: 700px;
-  padding: 18px;
-  justify-content: center;
-  display: flex;
-  text-decoration: none;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
 }
 
-.discover-button:hover {
+.containerhero .btn:hover {
   background-color: #003135;
-  border: 1px solid #ffff;
-  color: white;
-  z-index: 1000;
-  justify-content: center;
-  display: flex;
 }
 
-.discover-button a {
-  color: white;
-  z-index: 1000;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-}
 
 /* Products & Services page - all content */
 
@@ -434,43 +402,53 @@ main {
   order: 2;
 }
 
-/* Contact us page */
-#Contact-our-team {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px 10% 0 10%;
-  flex-grow: 1;
-  background-position: 50%;
-  margin: 20px;
-  padding: 20px;
+/* Contact page - container with 4 boxes*/
+
+/* Contact out team form - box 1 */
+#Container-contact {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-between;
+  background-color: none;
 }
 
-#Contact-our-team h2 {
+.contact-our-team {
+  border-radius: 5px;
+  max-width: 600px;
+  background-color: #f2f2f2;
+  padding: 20px 10% 0 10%;
+  background-position: 50%;
+  margin: 80px;
+  padding: 80px;
+  box-sizing: border-box;
+  resize: vertical;
+  flex: 1;
+  position: fixed;
+  order: 1;
+}
+
+.contact-our-team > h2 {
   text-align: left;
   color: #22282A;
-  font-size: 20px;
-  width: 100%;
   margin-top: 50px;
   padding: 0;
-  margin-left: 20px;
   font-size: 24px;
+  box-sizing: border-box;
+  flex: 1;
+  text-align: left;
 }
-.contact-form {
-width: 80%;
-display: block;
-}
-/* Contact form */
+
 body {font-family: Lato, sans-serif;}
 * {box-sizing: border-box;}
 
 .input[type=text], textarea {
   width: 100%;
-  padding: 11px 20px;
+  padding: 12px 20px;
   border: 1px solid #FFFFFF;
   border-radius: 4px;
-  box-sizing: border-box;
   margin: 11px 0;
   resize: vertical;
+  box-sizing: border-box;
 }
 
 .input[type=submit] {
@@ -480,6 +458,7 @@ body {font-family: Lato, sans-serif;}
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  float: left;
 }
 
 .input[type=submit]:hover {
@@ -487,39 +466,7 @@ body {font-family: Lato, sans-serif;}
   color: #f2f2f2;
 }
 
-
-/* Communication options graphics */
-#comms-options {
-  width: 100%;
-  line-height: 1em;
- 
-}
-#comms-options h2 {
-  text-align: center;
-  color: #22282A;
-  font-size: 20px;
-  width: 100%;
-  margin-top: 0;
-  padding: 0;
-  margin-left: 20px;
-  font-size: 24px;
-}
-
-#communication-row img {
-  width: 50%;
-  line-height: 1em;
-  padding: 10px;
-  align-items: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#communication-row {
-  line-height: 0;
-}
-
-/* Subscription section */
+/* Subscription section  - box 2 */
 
 #subscribe-container {
   font-family: Lato;
@@ -531,6 +478,9 @@ body {font-family: Lato, sans-serif;}
   background-color: none;
   padding-top: 10px;
   background: url("../images/subscribe.image.jpg") no-repeat;
+  order: 2;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 /* background image for subscription form */
@@ -578,7 +528,42 @@ body {font-family: Lato, sans-serif;}
   opacity: 0.9;
 }
 
-/* Google maps integration */
+/* Communication options graphics - box 3 */
+#comms-options {
+  width: 100%;
+  line-height: 1em;
+  order: 3;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+}
+#comms-options > h2 {
+  text-align: center;
+  color: #22282A;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+#communication-row img {
+  width: 50%;
+  line-height: 1em;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#communication-row {
+  line-height: 0;
+}
+
+
+/* Google maps integration - box 4 */
 #google-map {
   padding-bottom: 50%;
   position: relative;
@@ -586,6 +571,10 @@ body {font-family: Lato, sans-serif;}
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 90px;
+  order: 4;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .google-map iframe {
@@ -594,6 +583,8 @@ body {font-family: Lato, sans-serif;}
   margin-left: 20px;
   margin-right: 20px;
 }
+
+/* Footer Section */
 
 /* Social networks */
 #social-networks {
@@ -666,6 +657,9 @@ body {font-family: Lato, sans-serif;}
   margin:0% 1%;
 }
 
+/* End of all pages */
+
+
 /* Media query section for all device sizes */
 
 /* Responsive Mobile Sizes */
@@ -691,12 +685,15 @@ body {font-family: Lato, sans-serif;}
   column-count: 2;
   column-gap: 0;
 }
-#hero-image {
-  background-size: cover;
-}
+
 .services-column {
   columns: 0;
   column-gap: 3rem;
+}
+#contact-out-team, input[type=text], textarea,  
+input[type=submit], input[type=submit]:hover {
+  flex:100%;
+  min-width: 100%;
 }
 }
 
@@ -753,7 +750,7 @@ main {
 }
     
 /* Hero content */
-#homepage-content  {
+.homepage-content  {
   width: auto;
   height: 100vh;
 }
@@ -859,7 +856,6 @@ body {
 }
 
 .hero-image img {
-  background-size: cover;
   object-fit: cover;
 }
 .services-column {
@@ -885,7 +881,7 @@ flex: 1;
 body {
   font-size: 20px;
 }
-.hero-content {
+#hero-content {
 max-width: 100%;
 }
 
