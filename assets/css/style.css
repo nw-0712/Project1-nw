@@ -38,7 +38,7 @@ header {
   position: fixed;
   z-index: 1000;
   width: 100%;
-  box-shadow: 0 2px 2px #212a31;
+  box-shadow: 0 2px 2px #f1f1f1;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -110,10 +110,11 @@ nav {
   z-index: 1000;
   color: #003135;
   position: absolute;
+  text-align: right;
 }
 
 .nav-toggle-label {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #003135;
   z-index: 1000;
   text-align: right;
@@ -139,7 +140,7 @@ main {
   position: relative;
   background: url("../logos/output-onlinepngtools.png" class="responsive") no-repeat;
   justify-content: center;
-  display: flex;
+ display: flex;
   z-index: 999;
 }
 
@@ -463,6 +464,7 @@ body {font-family: Lato, sans-serif;}
   margin: 11px 0;
   resize: vertical;
   box-sizing: border-box;
+  max-height: 95px;
 }
 
 .input[type=submit] {
@@ -519,7 +521,7 @@ body {font-family: Lato, sans-serif;}
 #subscribe-form {
   padding: 16px 20px;
   cursor: pointer;
-  width: 80%;
+  width: 60%;
   z-index: 999;
   padding: 20px;
   margin: 5px 0 22px 0;
@@ -538,42 +540,28 @@ body {font-family: Lato, sans-serif;}
 }
 
 /* Communication options graphics - box 3 */
+
 #comms-options {
   max-width: 50%;
   line-height: 1em;
   order: 3;
   box-sizing: border-box;
   display: flex;
-  flex-flow: row wrap;
   margin-top: 15px;
-  align-items: left;
+  flex-direction: row;
+  margin-left: 10px;
 }
 
-#comms-options > h2 {
-  text-align: left;
-  color: #22282A;
-  width: 100%;
-  margin-top: 0;
-  padding: 0;
-  margin-left: 20px;
-  font-size: 14px;
-}
 
 #communication-row img {
   line-height: 1em;
   padding: 5px;
   flex-direction: column;
   display: flex;
-  justify-content: left;
+  flex-direction: row;
+  width: 100%;
 }
 
-#communication-row {
-  line-height: 0;
-  flex-direction: column;
-  flex-flow: row wrap;
-  display: flex;
-  align-items: left;
-}
 
 /* Google maps integration - box 4 */
 #google-map {
@@ -582,18 +570,19 @@ body {font-family: Lato, sans-serif;}
   display: flex;
   flex-flow: row wrap;
   margin-right: 0px;
-  align-items: right;
   flex-direction: column;
+  padding: 0px;
 }
 
 .google-map iframe {
   position: absolute;
   padding: 0px;
   align-items: right;
-  margin-right: 0;
+  margin-left: 40px;
   flex-direction: column;
-  margin-left: 60px;
   display: flex;
+  order: 4;
+  margin-bottom: 80px;
 }
 
 /* Footer Section */
