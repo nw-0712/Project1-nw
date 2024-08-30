@@ -206,10 +206,10 @@ main {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: -70px;
-  width: 250vw;
+  width: 240vw;
   padding-top: 0px;
   padding-bottom: 0px;
-  height: 215vw;
+  height: 200vw;
   flex-direction: column;
   justify-content: center;
 }
@@ -413,9 +413,8 @@ main {
   background: url("../images/testimony.image.png");
   height: auto;
   align-items: right;
-  justify-content: right;
+  justify-content: center;
   float: right;
-  order: 2;
 }
 
 /* Contact page - container with 4 boxes*/
@@ -549,18 +548,16 @@ body {font-family: Lato, sans-serif;}
   display: flex;
   margin-top: 15px;
   flex-direction: row;
-  margin-left: 10px;
 }
 
-
-#communication-row img {
-  line-height: 1em;
-  padding: 5px;
-  flex-direction: column;
-  display: flex;
+#comms-options img {
   flex-direction: row;
-  width: 100%;
+  margin-left: 17px;
+  line-height: 1em;
+  gap: 0.5px;
+  margin-bottom:10px; 
 }
+
 
 
 /* Google maps integration - box 4 */
@@ -582,7 +579,6 @@ body {font-family: Lato, sans-serif;}
   flex-direction: column;
   display: flex;
   order: 4;
-  margin-bottom: 80px;
 }
 
 /* Footer Section */
@@ -592,12 +588,11 @@ body {font-family: Lato, sans-serif;}
   text-align: center;
   padding: 0px 0;
   display: flex;
-  bottom: 40px;
+  bottom: 30px;
   justify-content: space-evenly;
   list-style-type: none;
   z-index: 999;
   color: #FFFFFF;
-  margin-top: 40px;
  
 }
 
@@ -606,6 +601,7 @@ body {font-family: Lato, sans-serif;}
   padding: 5%;
   color: #ffffff;
   z-index: 999;
+  margin-top: 50px;
 }
 
 /* Footer compliance bar */
@@ -616,7 +612,6 @@ body {font-family: Lato, sans-serif;}
   margin-right: 0;
   margin-top: 0px;
   border: 0;
-  position: fixed;
   z-index: -1;
   grid-row-start: 1;
   grid-row-end: 4;
