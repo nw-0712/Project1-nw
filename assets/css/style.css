@@ -267,7 +267,6 @@ main {
 
 /* Company Top-left logo placement */
 #toplogo {
-  z-index: 999;
   align-items: left;
   margin-right: 300px;
   margin-top: 0px;
@@ -594,7 +593,7 @@ margin-right: 500px;
   padding: 0px;
   flex-direction: column;
   display: flex;
-  height: 200vw;
+  height: 500vw;
 }
 
 /* ----------Contact page ends with footer same as the home page------------ */
@@ -719,7 +718,7 @@ margin-top: 79px;
 @media screen and (min-width: 992px) {
 /* Header */
 header {
-  width: fit-content;
+  width: 80%;
 }
 
 /* Menu */ 
@@ -730,42 +729,47 @@ header {
 
   /* Stylised brain graphic */
 .NFI-graphic {
-  max-width: 50%;
-  max-height: 50%;
   background-image: url(assets/logos/output-onlinepngtools.png);
   z-index: 999;
+  margin-left: 0px;
+  margin-top: 0px ;
+  width: 50%;
+  height: 50%;
 }
 
 .NFI-graphic img {
   align-items: center;
-  margin-left: 100px;
+  margin-left: 485px;
+  margin-top: 100px ;
 }
 
 /* Home page - hero image */
 .containerhero img {
-  width: 200vw;
-  height: 230vw;
+  width: 110vw;
+  height: 100vw;
   margin-top: 0px;
 }
 
 /* Home page - hero headings */
-.main-titles-content {
-  align-items: center;
-  margin-left: 350px;
-  margin-top: 120px;
-  }
+
 
 .main-titles-content h1 {
-    font-size: 7vw;
+    font-size: 5vw;
+    margin-left: 360px;
+    margin-top: 300px;
+    text-align: center;
   }
 
 .main-titles-content h6 {
-    font-size: 2vw;
+    font-size: 1vw;
+    margin-left: 360px;
+    margin-top: 600px;
+    text-align: center;
   }
 
 /* Social Media */
 #social-networks i {
-  font-size: 300%;
+  font-size: 200%;
   padding: 5%;
   color: #FFFFFF;
   margin-top: 50px;
@@ -781,9 +785,6 @@ header {
 }
 
 /* Subscription newletter */
-#subscribe-container {
- min-width: 120%; 
-}
 
 #subscribe-container img.responsive {
 margin-right: 0;
@@ -793,10 +794,24 @@ max-width: 100vw;
 body {
   font-size: 19px;
 }
+/* Footer*/
+#fblockcolor{
+  height: 200px;
+  width: 100vw;
+  }
+  .compliancetext p {
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 8px;
+    margin-left: 30px;
+    margin-top: 130px;
+  }
 }
-      
-/* ---------- Larger devices (laptops & desktops) larger (1,200px and up) --------*/
+/* ---------- Larger devices (laptops & desktops) landscape -larger (1,200px and up) --------*/
 @media screen and (min-width: 1200px) {
+  header {
+    width: 100%;
+  }
  
   /* Top menu & nav */
   nav {
@@ -805,25 +820,30 @@ body {
 
   /* stylised brain graphic (part of logo) */
   .NFI-graphic {
-    align-items: center;
+    background-image: url(assets/logos/output-onlinepngtools.png);
     z-index: 999;
-    align-items: center;
-    margin-left: 2000px;
-
+    width: 700px;
+    height: 300px;
+    align-items: left;
   }
+  
   .NFI-graphic img {
-    width: 8vw;
-    height: 8vw;
-
+    width: 400px;
+    height: 400px;
+    margin-left: 6800px;
+    margin-top: 800px;
+    z-index: 999;
+    align-items: left;
   }
   
   /* Company logo */
-  #toplogo {
-    align-items: left;
-    width: 60vw;
-    height: 60vw;
-    margin-top: 20px;
-    margin-left: 100px;
+  
+  #toplogo img{
+  width: 500px;
+height: 500px;
+margin-right: 130px;
+margin-top: 50px;
+z-index: 999;
   }
 
   /* Homepage hero image */
@@ -832,15 +852,15 @@ body {
   }
 
   .containerhero img {
-    width: 185vw;
-    height: 140vw;
+    width: -50%;
+    height: -50%;
     margin-top: 140px;
   }
 
   /* Homepage main titles */
 .main-titles-content {
   text-align: center;
-  margin-top: 2000px;
+  margin-top: 2500px;
 }
 
 .main-titles-content h1 {
@@ -875,7 +895,7 @@ body {
   width: 20%;
   align-items: center;
   font-size: 100px;
-  margin-left: 1050px;
+  margin-left: 800px;
   margin-top: 80px;
 }
 
@@ -883,69 +903,127 @@ body {
   #comms-options {
 display: flex;
 flex-direction: row;
-max-width: 6vw;
+max-width: 50%;
+flex-direction: wrap;
+
 }
+#comms-options img {
+  flex-direction: wrap;
+  max-width: 20vw;
+  }
 
 /* Products-services page components */
+
 #product-hero h2 {
-  font-size: 1vw;
-  line-height: 70px;
-}
-.product-column h2 {
-  font-size: 1vw;
-  line-height: 70px;
-}
-.product-column h6 {
-  font-size: 1vw;
-}
-.product-column p {
-  font-size: 1vw;
-  line-height: 85px;
-  margin-left: 50px;
-}
-#products-list-row li {
-  font-size: 1vw;
-  line-height: 55px;
-  margin-left: 120px;
+  font-size: 2vw;
+  margin-top: 200px;
+  margin-left: 80px;
+  line-height: 150px;
 }
 #services-hero h2 {
-  font-size: 1vw;
+  font-size: 2vw;
+  margin-top: 50px;
+  margin-left: 80px;
 }
-.services-column h2 {
+
+.product-column h6 {
   font-size: 1vw;
+  line-height: 70px;
+  margin-left: 80px;
+}
+.services-column h6 {
+  font-size: 1vw;
+  line-height: 70px;
+  margin-left: 80px;
 }
 .services-column h4 {
   font-size: 1vw;
+  line-height: 90px;
+  margin-left: 80px;
+}
+.services-column {
+  line-height: 160px;
+  column-count: 2;
+  column-gap: 120px;
+}
+
+.product-column p {
+  font-size: 1vw;
+  line-height: 85px;
+  margin-left: 80px;
 }
 .services-column p {
   font-size: 1vw;
   line-height: 85px;
+  margin-left: 80px;
 }
 
-/* Subscribe - newletter forms and background image */
-#Container-contact {
+#products-list-row li {
+  font-size: 1.3vw;
+  line-height: 120px;
+  margin-left: 130px;
+}
+
+/* Testimony section */
+#testimony-hero {
+margin-left: 0px;
+align-items: left;
+}
+
+#google-map iframe {
   display: flex;
-  flex-direction: column;
+  max-width: 100%;
+  flex-direction: wrap;
+  width: 3vw;
+  height: 3vh;
 }
-#fblockcolor {
-height: 10vw;
-width: 185vw;
-}
+
+/* Footer*/
+#fblockcolor{
+  height: 300px;
+  width: 100vw;
+  }
 
 /* Social Media */
 #social-networks {
   align-items: center;
 }
 #social-networks i {
-  font-size: 2vw;
-  margin-top: 100px;
-}
-.compliancetext p {
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 11px;
-  margin-top: 400px;
-  margin-left: 4000px;
+  font-size: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
+.compliancetext p {
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 11px;
+  margin-left: 3000px;
+  margin-top: 190px;
+}
+
+/* Newsletter subcsription form */ 
+#subscribe-container {
+display: flex;
+flex-direction: wrap;
+}
+
+.newsletter-background img {
+  background: url("../images/subscribe.image.jpg") no-repeat;
+  z-index: -1;
+  width: 200%;
+  height: 180%;
+}
+
+#subscribe-form {
+  z-index: 999;
+  padding: 20px;
+}
+
+#subscribe-form h6 {
+  padding: 10px 10px;
+  font-size: 18px;
+}
+#subscribe-form p {
+  font-size: 12px;
 }
