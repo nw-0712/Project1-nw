@@ -37,7 +37,7 @@ header {
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
-  width: 100%;
+  width: 90%;
   box-shadow: 0 2px 2px #3a3a3a;
   display: flex;
   justify-content: space-between;
@@ -51,11 +51,12 @@ header a {
 
 #menu {
   letter-spacing: 4px;
-  font-size: 110%;
+  color: inherit;
   list-style-type: none;
+  margin-top: 15px;
 }
 #menu > li {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 .active {
   border-bottom: 1px solid #3a3a3a;
@@ -64,14 +65,13 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
   position: absolute;
-  text-align: right;
   background-color: none;
   width: 100%;
   left: 0;
   display: none;
   box-shadow: 0 2px 2px #FFFFFF;
-margin-left: 50px;
 padding: 0 1rem;
+top: 100%;
 }
   
 /* Nav toggle - dropdown*/
@@ -110,7 +110,7 @@ main {
 .NFI-graphic {
   background-color: none;
   position: relative;
-  background: url("../logos/output-onlinepngtools.png" class="responsive") no-repeat;
+  background: url("assets/logos/output-onlinepngtools.png" class="responsive") no-repeat;
   justify-content: center;
  display: flex;
   z-index: 999;
@@ -252,28 +252,27 @@ main {
 .compliancetext > p {
     color: #ffff;
     position: absolute;
-    font-size: 8px;
-    text-align: center;
-    justify-content: center;
+    font-size: 6px;
     display: flex;
     margin-top: 80px;
     padding: 0px;
-    margin-left: 60px;
     z-index: 999;
+margin-left: 90px;
+    text-align: justify; 
 }
 
 /* ------------ Products & Services page - all content---------------- */
 
 /* Company Top-left logo placement */
 #toplogo {
-  align-items: left;
-  margin-right: 300px;
+  align-items: center;
+margin-right: 70px;
   margin-top: 0px;
 }
 
 #toplogo img {
-  width:60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
   position: absolute;
   background-color: #F2F3F4;
   padding: none;
@@ -286,9 +285,10 @@ main {
   color: #22282A;
   z-index: 999;
   column-rule-width: 1px;
-  width: 90%;
-  margin-left: 20px;
+  width: 100%;
+  margin-left: 10px;
   margin-top: 50px;
+  margin-right: 10px;
 }
 
 #product-hero > h2 {
@@ -299,6 +299,7 @@ main {
   margin-top: 20px;
   padding: 0;
   margin-left: 20px;
+  margin-right: 20px;
   font-family: Libre, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -308,7 +309,7 @@ main {
   text-align: left;
   color: #22282A;
   margin-left: 10px;
-  margin-right: 25px;
+  margin-right: 10px;
 }
 
 .product-column > h6 {
@@ -318,8 +319,10 @@ main {
   padding: 0;
   font-size: 12px;
   color: #22282A;
-  font-size: 12px;
-  margin-left: 20px;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 8px;
 }
 
 .product-column > p {
@@ -338,7 +341,8 @@ main {
 #products-list-row > li {
   text-align: left;
   color: #22282A;
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-size: 10px;
   float: left;
   width: 100%;
@@ -352,13 +356,13 @@ main {
 
 #services-hero {
   background-color: #F2F3F4;
-  text-align: justifys;
+  text-align: justify;
   color: #22282A;
   z-index: 999;
   column-rule-width: 1px;
-  width: 90%;
-  margin-left: 20px;
-  margin-right: 30px;
+  width: 100%;
+  margin-left: 14px;
+  margin-right: 14px;
 }
 
 #services-hero > h2 {
@@ -368,6 +372,7 @@ main {
   width: 100%;
   margin-top: 30px;
   padding: 0;
+  margin-left: 20px;
   margin-left: 20px;
   font-family: Libre, sans-serif;
   text-transform: uppercase;
@@ -381,6 +386,8 @@ main {
   line-height: 20px;
   margin-bottom: 10px;
   margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .services-column > h4 {
@@ -433,7 +440,6 @@ height: 100%;
   width:60px;
   height: 70px;
   position: absolute;
-  background-color: #F2F3F4;
   margin-top: 20px;
   padding: none;
 margin-right: 800px;
@@ -447,6 +453,9 @@ z-index: 999;
   justify-content:space-between;
   background-color: none;
   margin-top: 25px;
+  margin: 20px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .contact-our-team {
@@ -461,6 +470,7 @@ z-index: 999;
   resize: vertical;
   flex: 1;
 }
+
 
 .contact-our-team > h2 {
   text-align: left;
@@ -516,15 +526,19 @@ body {font-family: Lato, sans-serif;}
   display: flex;
 }
 
-/* background image for subscription newsletter form */
+.newsletter-background {
+align-items: left;
+z-index: -1;
+}
+
 .newsletter-background img {
   background: url("../images/subscribe.image.jpg") no-repeat;
   z-index: -1;
   width: 110%;
   height: 160%;
+
 }
 
-/* Newsletter subcsription form */  
 #subscribe-form >h6 > p{
   width: 80%;
   padding: 15px;
@@ -557,10 +571,12 @@ margin-right: 500px;
   font-size: 10px;
 }
 
+
 /* Communication options graphics */
 
 #comms-options {
-  max-width: 50%;
+  width: 50%;
+  height: 50%;
   line-height: 1em;
   box-sizing: border-box;
   display: flex;
@@ -574,6 +590,8 @@ margin-right: 500px;
   line-height: 1em;
   gap: 0.5px;
   margin-bottom: 10px; 
+  width: 50%;
+  height: 50%;
 }
 
 
@@ -605,22 +623,32 @@ margin-right: 500px;
 /* ------- Media query mobile sizes - (min-device-width: 320px and up) -------*/
 @media only screen and (max-width: 500px) {
  .services-column p {
-  font-size: 12px;
+  font-size: 10px;
  }
 }
 
 /* ------ Media query: large or landscape phones (576px and up to 768px) ------*/
 @media screen and (min-width: 576px) {
+#nav-toggle-label {
+    font-size: 12px;
+}
 
 #communication-row {
-  column-count: 2;
-  column-gap: 0;
+  width: 60%;
+  height: 60%;
+  align-items: center;
+  margin-left: 120px;
+}
+#communication-row img {
+  width: 60%;
+  height: 60%;
+  align-items: center;
 }
 
 #contact-out-team, input[type=text], textarea,  
 input[type=submit], input[type=submit]:hover {
   flex:100%;
-  min-width: 100%;
+  min-width:90%;
 }
 }
 
@@ -663,36 +691,10 @@ body {
   font-size: 18px;
 }
 
-/*  Navigation bar */  
-nav {
-  display: block; 
-  position: relative;
-  box-shadow: none;
-  width: fit-content;
-  padding-right: 1rem;
-}
-
-/* Menu */
-#menu {
-  display: flex;
-}
-
-#menu > li {
-  padding-left: 1rem;
-}
-
-.nav-toggle-label {
-  display: none;
-}
-
 .containerhero .btn {
 margin-right: 410px;
 }
 
-/* Footer */
-.compliancetext p {
- margin-left: 250px;
- text-align: center;
 }
 
 /* Services section */
@@ -720,10 +722,32 @@ header {
   width: 80%;
 }
 
+/*  Navigation bar */  
+nav {
+  display: block; 
+  position: relative;
+  box-shadow: none;
+  width: 100%;
+  padding-right: 1rem;
+}
+
+/* Menu */
+#menu {
+  display: flex;
+}
+
+#menu > li {
+  padding-left: 1rem;
+  margin-top: 50px;
+}
+
 /* Menu */ 
 #menu a:hover {
     background-color: #003135;
     border-bottom: 1px solid;
+  }
+  .nav-toggle-label {
+    display: none;
   }
 
   /* Stylised brain graphic */
@@ -774,14 +798,40 @@ header {
   margin-top: 50px;
 }
 
+/* Footer text */
+.compliancetext p {
+  font-size: 21px;
+  text-align: center;
+  letter-spacing: 34px;
+  margin-top: 360px;
+  margin-left: 5000px;
+}
+
 /* Contact page comms graphics */
-#communication-row {
-    column-count: 3;
-    margin-left: 70px;
+
+  #communication-row {
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    margin-left: 120px;
+  }
+
+  #communication-row img {
+    column-count: 2;
+    column-gap: 0;
+    width: 60%;
+    height: 60%;
+    align-items: center;
+  }
+
+  .compliancetext > p {
+    font-size: 11px;
+    display: flex;
+    margin-top: 80px;
+margin-left: 90px;
+    text-align: justify; 
 }
-#communication-row {
-  column-count: 4;
-}
+
 
 /* Subscription newletter */
 
@@ -793,32 +843,35 @@ max-width: 100vw;
 body {
   font-size: 19px;
 }
+
 /* Footer*/
 #fblockcolor{
   height: 200px;
   width: 100vw;
   }
-  .compliancetext p {
-    font-size: 10px;
-    text-align: center;
-    letter-spacing: 8px;
-    margin-left: 30px;
-    margin-top: 130px;
-  }
 }
+
 /* ---------- Larger devices (laptops & desktops) landscape -larger (1,200px and up) --------*/
 @media screen and (min-width: 1200px) {
+
+   /* Top menu & nav */
   header {
     width: 100%;
-    font-size: 1vw;
   }
  
-  /* Top menu & nav */
   nav {
-    width: fit-content;
+    width: 100%;
+    margin-top: 50px;
   }
+  #menu {
+    font-size: 6rem;
+    margin-top: 80px;
+  }
+ 
 
-  /* stylised brain graphic (part of logo) */
+  /* Home page */
+
+  /* stylised brain graphic */
   .NFI-graphic {
     background-image: url(assets/logos/output-onlinepngtools.png);
     z-index: 999;
@@ -830,63 +883,51 @@ body {
   .NFI-graphic img {
     width: 400px;
     height: 400px;
-    margin-left: 6800px;
-    margin-top: 1600px;
+    margin-left: 8000px;
+    margin-top: 1400px;
     z-index: 999;
     align-items: left;
   }
-  
-  /* Company logo */
-  #toplogo {
-    margin-top: 100px;
-    z-index: 999;
-    align-items: left;
- margin-right: 500px;
-    margin: 100px;
-  }
 
-  #toplogo img {
-  width: 500px;
-height: 500px;
-align-items: left;
-margin: 100px;
-  }
-
-  /* Homepage hero image */
   .containerhero {
     position: relative;
   }
-
   .containerhero img {
-    width: -50%;
-    height: -50%;
-    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    background: url("assets/images/neural.network.cover.f.jpg") no-repeat;
+    width: 125vw;
   }
 
   /* Homepage main titles */
-.main-titles-content h1 {
-    font-size: 4vw;
+  .main-titles-content {
+    width: 100%;
     text-align: center;
-    margin-left: 7000px;
-    margin-top: 5000px;
+    align-items: center;
+  }
+
+.main-titles-content h1 {
+    font-size: 3vw;
+    margin-top: 4000px;
+    margin-left: 900px;
+    text-align: center;
 }
 
 .main-titles-content h6 {
    font-size: 1vw;
-  margin-top: 6000px;
-  margin-left: 7000px;
-  max-width: 100%
+  margin-top: 4700px;
+  margin-left: 1000px;
+  text-align: center;
 }
 
 /* Hero 'discover' - call-to-action button */
 .containerhero .btn {
   position: absolute;
-  transform: translate(-100%, -100%);
-  -ms-transform: translate(-100%, -100%);
+  transform: translate(-80%, -80%);
+  -ms-transform: translate(-80%, -80%);
   background-color: #3EB9BB;
   color: white;
   padding-top: 20px;
-  padding-top: 0px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -898,32 +939,19 @@ margin: 100px;
   width: 20%;
   align-items: center;
   font-size: 100px;
-  margin-left: 800px;
   margin-top: 80px;
+  margin-left: 1100px;
 }
-
-/* Contact page - communication graphics row */
-  #comms-options {
-display: flex;
-max-width: 30%;
-order: 3;
-flex-direction: wrap;
-}
-
-#comms-options img {
-  flex-direction: wrap;
-  display: flex;
-  max-width: 20vw;
-  order: 3;
-  }
 
 /* Products-services page components */
-
+#product-hero {
+  z-index: -1;
+}
 #product-hero h2 {
   font-size: 2vw;
-  margin-top: 200px;
+  margin-top: 400px;
   margin-left: 80px;
-  line-height: 150px;
+  line-height: 20px;
 }
 
 #services-hero h2 {
@@ -934,13 +962,13 @@ flex-direction: wrap;
 
 .product-column h6 {
   font-size: 1vw;
-  line-height: 70px;
+  line-height: 2;
   margin-left: 80px;
 }
 
 .services-column h6 {
   font-size: 1vw;
-  line-height: 70px;
+  line-height: 50px;
   margin-left: 80px;
 }
 .services-column h4 {
@@ -949,7 +977,7 @@ flex-direction: wrap;
   margin-left: 80px;
 }
 .services-column {
-  line-height: 160px;
+  line-height: 80px;
   column-count: 2;
   column-gap: 120px;
 }
@@ -961,117 +989,81 @@ flex-direction: wrap;
 }
 .services-column p {
   font-size: 1vw;
-  line-height: 85px;
+  line-height: 80px;
   margin-left: 80px;
 }
 
 #products-list-row li {
   font-size: 1.3vw;
   line-height: 120px;
-  margin-left: 130px;
+  margin-left: 200px;
 }
 
-/* Testimony section */
-#testimony-hero {
-margin-left: 0px;
+
+/* Contact page  */
+
+  /* Company logo */
+  #toplogo {
+    margin-top: 0px;
+    z-index: 999;
+    align-items: left;
+    margin-right: 5400px;
+    position: relative;
+  }
+
+  #toplogo img {
+  width: 200px;
+height: 200px;
 align-items: left;
-}
+z-index: 999;
+position: absolute;
+margin-right: 5400px;
+  }
 
+  /* Communication graphics row */
+#comms-options {
+  display: flex;
+  max-width: 30%;
+  order: 3;
+  flex-direction: row;
+  }
+  
+  #comms-options img {
+    display: flex;
+    max-width: 20vw;
+    order: 3;
+    }
+  
 /* google map */
 #google-map {
-  height: 3vh;
-width:2vw;
-flex-direction: wrap;
 display: flex;
-align-items: right;
 }
+
 #google-map iframe {
-  flex-direction: wrap;
-  display: flex;
-  width: 3vw;
-  height: 3vh;
-  order: 4;
-  align-items: right;
+display: flex;
+  width: 56vw;
+  height: 19vh;
 }
 
 /* Footer*/
 #fblockcolor{
   height: 500px;
-  width: 100vw;
+  width: 124vw;
   }
 
 #social-networks {
   align-items: center;
 }
 #social-networks i {
-  font-size: 80px;
-  margin-top: 90px;
+  font-size: 90px;
+  margin-top: 180px;
 
 }
 .compliancetext p {
-  font-size: 13px;
+  font-size: 21px;
   text-align: center;
-  letter-spacing: 11px;
+  letter-spacing: 34px;
+  margin-top: 360px;
   margin-left: 3000px;
-  margin-top: 300px;
 }
-
-/* Newsletter subcsription form */ 
-
-  
-
-
-/* Contact our team fomr */
-#Container-contact {
-  display: flex;
-  justify-content:space-between;
-  margin-top: 25px;
-  order: 1;
-  margin-bottom: 35px;
-  flex-direction: wrap;
-flex: wrap;
-}
-
-.contact-our-team {
-  border-radius: 16px;
-  min-width: 1900px;
-min-height: 1900px;
-  background-color: #f2f2f2;
-  padding: 80px 70% 0 70%;
-  background-position: 80%;
-  margin: 60px;
-  margin-right: 40px;
-  padding: 200px;
-  box-sizing: border-box;
-  resize: vertical;
-  flex: 1;
- font-size: 1.2vw;
-}
-#Container-contact {
-  display: flex;
-  justify-content:space-between;
-  margin-top: 35px;
-}
-.contact-our-team > h2 {
-   font-size: 1vw; 
-}
-
-body {font-family: Lato, sans-serif; font-size: 45px;}
-* {box-sizing: border-box;} 
-
-
-input::placeholder {
-  height: 85px;
-  font-size: 48px;
-}
-#contact-form-label {
-  height: 80px;
-  font-size: 48px;
-}
-input[name=text], input[type=submit] {
-  width: 25px;  
-  height: 90px;
-  font-size: 40px;
-}
-
 }
