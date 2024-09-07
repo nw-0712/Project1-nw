@@ -78,7 +78,7 @@ a. Languages: HTML, CSS</br>
 HTML5</br>
 https://en.wikipedia.org/wiki/HTML5</br>
 
-CSS3</br>
+CSS</br>
 https://en.wikipedia.org/wiki/CSS</br>
 
 b. Programs:</br>
@@ -91,31 +91,79 @@ https://github.com/
 Gitpod</br>
 https://www.gitpod.io/
 
-Visme
+Visme</br>
+https://www.visme.co/
 
-W3C markup validator
-Unsplash
-Flaticon
-Font Awesome
+W3C markup validator</br>
+https://validator.w3.org/
+
+Unsplash</br>
+#https://unsplash.com/
+
+Favicon</br>
+https://favicon.io/
+
+Unsplash images</br>
+https://unsplash.com/
+
+Font Awesome</br>
+https://fontawesome.com/
+
 Freepix</br>
-https://fontawesome.com/</br>
+https://www.freepik.com/
+
+Chromedevtools</br>
+https://developer.chrome.com/docs/devtools
+
+Am I responsive</br>
+https://ui.dev/amiresponsive
+
+Google fonts</br>
+https://fonts.google.com/
 
 **TESTING**</br>
 a. User stories</br>
+a. As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.</br>
+b. As a user I want the ability to move through the navigation of the site by lcking on the 'hamburger' bar, and be directed to page of choice.</br>
+c. As a user I wan the ability to easily find the contact informaiton of the company.</br>
+d. As a user I want the ability to click on Google maps and be dorected to the app, so that I can get directions form my location to company.</br>
+e. As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.</br>
+f. As a user I want the ability to easily schedule an appointment with company.</br>
+g. As a user I want the ability to get exact information on the products/services offered by the company.</br>
+h. As a user I want the ability to fill out the contact form so that I can get in contact with the company.</br>
+i. As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.</br>
+j. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.</br>
+
 b. Code valildation</br>
+The W3C Html Markup Validator and W3C CSS Validator services were used to validate all pages of the project in order to ensure there were no syntax errors.</br>
+https://validator.w3.org/detailed.html
+No major errros found except the // in the css stylesheet 
+
+https://jigsaw.w3.org/css-validator/
+
 c. Accessibility & scores</br>
-d. Testing tools</br>
+Used Lighthouse in Chrome DevTools to confirm sccessibility used in throughout the website are easy to read and accessible.</br>
+
 
 **DEPLOYMENT**</br>
 a. Github pages & Libraries</br>
 
 **RESOURCES**</br>
 a. Best practises</br>
+https://stackoverflow.com/
+
 b. Code for Google maps integration</br>
+I used this reference: https://www.w3schools.com/graphics/google_maps_intro.asp
+
 c. Image libraries</br>
+Unsplash</br>
+Freepix</br>
+
 d. Icon libraries</br>
+Favicon</br>
 
 **Research**</br>
+My research for project contained the below items</br>
 a. Users</br>
 b. User groups</br>
 c. TAM,TOM</br>
