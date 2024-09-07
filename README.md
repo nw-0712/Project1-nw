@@ -63,7 +63,6 @@ j. As a user I want the ability to click on the different communicaiton options 
 Colours</br>
 ![image](https://github.com/user-attachments/assets/393e6c72-ecf8-4857-be5e-37e9ac807e12)
 
-
 Typography</br>
 Headings and sub-headings: Font used - Libre</br>
 Body copy: Font used - Lato sans serif</br>
@@ -74,9 +73,32 @@ Wireframes</br>
 ![image](https://github.com/user-attachments/assets/a2b71661-7d9e-4c57-b700-649c18e11eaf)
 
 
-**TECH STACK & LANGUAGES**</br>
+**Frameworks, Libraries and Programs Used**</br>
 a. Languages: HTML, CSS</br>
-b. Technology: VS desktop, Github, Gitpod, Visme, W3C markup, </br>
+HTML5</br>
+https://en.wikipedia.org/wiki/HTML5</br>
+
+CSS3</br>
+https://en.wikipedia.org/wiki/CSS</br>
+
+b. Programs:</br>
+VS desktop</br>
+[https://code.visualstudio.com/download](https://code.visualstudio.com/docs/editor/vscode-web)
+
+Github</br>
+https://github.com/
+
+Gitpod</br>
+https://www.gitpod.io/
+
+Visme
+
+W3C markup validator
+Unsplash
+Flaticon
+Font Awesome
+Freepix</br>
+https://fontawesome.com/</br>
 
 **TESTING**</br>
 a. User stories</br>
