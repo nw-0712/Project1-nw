@@ -134,6 +134,17 @@ h. As a user I want the ability to fill out the contact form so that I can get i
 i. As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.</br>
 j. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.</br>
 
+Form validaiton</br>
+Contact us form</br>
+![image](https://github.com/user-attachments/assets/fec44733-a0e0-4589-9285-b9bcde6df6a0)
+![image](https://github.com/user-attachments/assets/3489293a-142f-4580-8da1-bdfc3a718d64)
+
+
+Newsletter subscription form</br>
+![image](https://github.com/user-attachments/assets/bb6ffaf8-8f33-4117-b795-b54ef4b4cf79)
+![image](https://github.com/user-attachments/assets/95be719e-6d65-4942-a2c4-c79b15345680)
+
+
 b. Code valildation</br>
 The W3C Html Markup Validator and W3C CSS Validator services were used to validate all pages of the project in order to ensure there were no syntax errors.</br>
 https://validator.w3.org/detailed.html
