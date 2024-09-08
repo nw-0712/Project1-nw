@@ -30,7 +30,7 @@ c. Contact us page</br>
 
 FEATURES & FUNCTIONALITY</BR>
 Home Page</br>
--This page is where the users can discover more about the institute, contact them, and access the other pages through the top navigation or ‘hamburger’ drop-down menu.</br>
+*This page is where the users can discover more about the institute, contact them, and access the other pages through the top navigation or ‘hamburger’ drop-down menu.</br>
 -Navigation bar: feaured on all three website pages, that is fully responsive which includes links to the logo, home page, about us page, products & services page and the contact us page.<br>
 -To allow a higher degree of usability I have got the base nav bar at the top which is clikable and a 'hambuger' menu, with a dropdown menu feature which shows all the sections and pages of the website.</br>
 
