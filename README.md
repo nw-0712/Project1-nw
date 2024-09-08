@@ -1,4 +1,9 @@
 
+![image](https://github.com/user-attachments/assets/4cac51af-d5c6-47c5-b9e1-6824d0f1837a)
+
+
+
+
 Welcome Users,
 
 **NEUROXCEL FUSION INSITITUTE** </br>
@@ -98,7 +103,7 @@ W3C markup validator</br>
 https://validator.w3.org/
 
 Unsplash</br>
-#https://unsplash.com/
+https://unsplash.com/
 
 Favicon</br>
 https://favicon.io/
@@ -134,7 +139,7 @@ h. As a user I want the ability to fill out the contact form so that I can get i
 i. As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.</br>
 j. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.</br>
 
-Form validaiton</br>
+Form validation</br>
 Contact us form</br>
 ![image](https://github.com/user-attachments/assets/fec44733-a0e0-4589-9285-b9bcde6df6a0)
 ![image](https://github.com/user-attachments/assets/3489293a-142f-4580-8da1-bdfc3a718d64)
@@ -148,7 +153,13 @@ Newsletter subscription form</br>
 b. Code valildation</br>
 The W3C Html Markup Validator and W3C CSS Validator services were used to validate all pages of the project in order to ensure there were no syntax errors.</br>
 https://validator.w3.org/detailed.html
-No major errros found except the // in the css stylesheet 
+Some warnings found for the // in the css stylesheet. 
+HTML Home page:</br>
+![image](https://github.com/user-attachments/assets/d0f056e4-dcc4-4f4b-a217-b205c3077fbe)
+HTML Products: Page</br>
+![image](https://github.com/user-attachments/assets/7677c984-c89b-451b-a84d-6c771306ffa9)
+Contact Page:</br>
+![image](https://github.com/user-attachments/assets/b4ae2ff6-f34a-451b-82a2-6d7eadef9bf4)
 
 https://jigsaw.w3.org/css-validator/
 
