@@ -166,6 +166,8 @@ Contact Page:</br>
 ![image](https://github.com/user-attachments/assets/b4ae2ff6-f34a-451b-82a2-6d7eadef9bf4)
 
 https://jigsaw.w3.org/css-validator/
+Validating my css I ofund this error and corrected it. 
+![image](https://github.com/user-attachments/assets/43e40a1d-d0a1-4229-a884-75567a33311a)
 
 c. Accessibility & scores</br>
 Used Lighthouse in Chrome DevTools to confirm sccessibility used in throughout the website are easy to read and accessible.</br>
