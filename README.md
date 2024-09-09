@@ -1,8 +1,3 @@
-![image](https://github.com/user-attachments/assets/01b49b8c-edc1-4dde-8f49-3107d9e79053)
-
-![image](https://github.com/user-attachments/assets/4cac51af-d5c6-47c5-b9e1-6824d0f1837a)
-
-
 
 
 Welcome Users,
@@ -23,7 +18,7 @@ c. <u>Colours<u></br>
 d.<u>Typography (fonts)<u></br>
 e. <u>Wireframes<u></br>
 
-FEATURES & FUNCTIONALITY</br>
+**FEATURES & FUNCTIONALITY**</br>
 a. Home page</br>
 b. Products & Services page</br>
 c. Contact us page</br>
@@ -33,6 +28,8 @@ Home Page</br>
 - This page gives the users the ability to clkick on 'discover' button to learn more about the institute, contact them, and access the other pages through the top navigation or ‘hamburger’ drop-down menu.</br>
 - Navigation bar: feaured on all three website pages, that is fully responsive which includes links to the logo, home page, about us page, products & services page and the contact us page.<br>
 - To allow a higher degree of usability the site has a 'hambuger' menu, with a dropdown menu feature which shows all the sections and pages of the website.</br>
+
+![image](https://github.com/user-attachments/assets/01b49b8c-edc1-4dde-8f49-3107d9e79053)
 
 Products & Services page</br>
 - This page the users learn more about some of the products & services that the institute offers.
@@ -46,7 +43,9 @@ Contact page</br>
 - The users can also click on map and be directed to the Google maps application to get directions to the various offices.
 - The users can input their email address to subscribe to the newsletter.
 
-USER EXPERIENCE (UX)</br>
+  ![image](https://github.com/user-attachments/assets/4cac51af-d5c6-47c5-b9e1-6824d0f1837a)
+
+**USER EXPERIENCE (UX)**</br>
 Project Goals</br>
 a. Bring your own idea(s) to life, based on providing value to users to address a specific real or imagined need.</br> 
 b. Use the relevant project assessment criteria as a guide to the minimum required functionality.</br>
@@ -56,7 +55,7 @@ e. Well-defined purpose addressing a particular target/multiple audience.</br>
 f. Its purpose would be immediately evident to a new user.</br> 
 g. The website’s design follows the principles of UX design and accessibility guidelines, and the site is fully responsive.</br>
 
-Epics & user stories</br>
+**Epics & user stories**</br>
 a. As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.</br>
 b. As a user I want the ability to move through the navigation of the site by lcking on the 'hamburger' bar, and be directed to page of choice.</br>
 c. As a user I wan the ability to easily find the contact informaiton of the company.</br>
@@ -176,7 +175,7 @@ a. Best practises</br>
 https://stackoverflow.com/
 
 b. Code for Google maps integration</br>
-I used this reference: https://www.w3schools.com/graphics/google_maps_intro.asp
+I used this code reference: https://www.w3schools.com/graphics/google_maps_intro.asp
 
 c. Image libraries</br>
 Unsplash</br>
@@ -186,12 +185,12 @@ d. Icon libraries</br>
 Favicon</br>
 
 **Research**</br>
-My research for project contained the below items</br>
+The research I did for project is contained the link and includes the list items below.</br>
 https://my.visme.co/editor/MW9DSW1zTUdUS2kvTFBLanhkTFFpQT09Ojo2TzNKUWlCUHdxLzlHcGhlNE1tNTVnPT0=/basics
 
 a. Users</br>
 b. User groups</br>
-c. TAM,TOM</br>
+c. TAM, TOM</br>
 d. Strategy</br>
 e. User benefits</br>
 f. USPs</br>
