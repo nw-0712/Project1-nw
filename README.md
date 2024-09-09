@@ -60,15 +60,15 @@ g. The website’s design follows the principles of UX design and accessibility 
   ![image](https://github.com/user-attachments/assets/4cac51af-d5c6-47c5-b9e1-6824d0f1837a)
 
 **Epics & user stories**</br>
-a. As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.</br>
-b. As a user I want the ability to move through the navigation of the site by lcking on the 'hamburger' bar, and be directed to page of choice.</br>
-c. As a user I wan the ability to easily find the contact informaiton of the company.</br>
-d. As a user I want the ability to click on Google maps and be dorected to the app, so that I can get directions form my location to company.</br>
-e. As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.</br>
-f. As a user I want the ability to get exact information on the products/services offered by the company.</br>
-g. As a user I want the ability to fill out the contact form so that I can get in contact with the company.</br>
-h. As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.</br>
-i. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.</br>
+- As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.</br>
+- As a user I want the ability to move through the navigation of the site by lcking on the 'hamburger' bar, and be directed to page of choice.</br>
+- As a user I wan the ability to easily find the contact informaiton of the company.</br>
+- As a user I want the ability to click on Google maps and be dorected to the app, so that I can get directions form my location to company.</br>
+- As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.</br>
+- As a user I want the ability to get exact information on the products/services offered by the company.</br>
+- As a user I want the ability to fill out the contact form so that I can get in contact with the company.</br>
+- h. As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.</br>
+- i. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.</br>
 
 Colours</br>
 ![image](https://github.com/user-attachments/assets/393e6c72-ecf8-4857-be5e-37e9ac807e12)
@@ -132,16 +132,15 @@ Google fonts</br>
 https://fonts.google.com/
 
 **TESTING**</br>
-a. User stories</br>
-a. As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.</br>
-b. As a user I want the ability to move through the navigation of the site by lcking on the 'hamburger' bar, and be directed to page of choice.</br>
-c. As a user I wan the ability to easily find the contact information of the company.</br>
-d. As a user I want the ability to click on Google maps and be directed to the app, so that I can get directions from my location to company.</br>
-e. As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.</br>
-g. As a user I want the ability to get exact information on the products/services offered by the company.</br>
-h. As a user I want the ability to fill out the contact form so that I can get in contact with the company.</br>
-i. As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.</br>
-j. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.</br>
+User stories</br>
+- As a user I cliced on the social media icons and had expected behviour of being directed to the relevtant URL of the socila media sites directly.</br> 
+- As a user I clicked on top navigation menu and had expceted behaviour of being directed to the products/services page when I clicked on the link and when I clicked on the contact link, I was directed to the contacts page.</br>
+- As a user I clicked on Google maps and was automatically taken to an opened page of in browser which contained google map.</br>
+- As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.</br>
+- As a user I want the ability to get exact information on the products/services offered by the company.</br>
+- As a user I want the ability to fill out the contact form so that I can get in contact with the company directed.</br>
+- As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.</br>
+- As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.</br>
 
 Form validation</br>
 Contact us form</br>
