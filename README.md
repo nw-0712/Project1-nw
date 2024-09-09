@@ -5,7 +5,7 @@ Welcome Users,
 **NEUROXCEL FUSION INSITITUTE** </br>
 Biohacking supported by cutting-edge technologies to accelerate your health and wellness</br>
 
-Users of this website will be able to gain an understanding of biohacking, the different types of biohacking and the different practises, therapies, nutrition, tehcnology and a mix of professionals used for the specific areas of focus. This site's purpose is to promote biohacking and bring value to different user groups like rehabilitation & recovery, neural conditions, neurological conditions, wellness, mental health, longevity, performance acceleration and enhanced nutrition. The benefits for these users (depending on their specific focus areas) is that they will get access to a combination of therapies, products, supplements and technology to accelerate recovery, increase performance, introduce wellness, promote longevity or simply to learn how they can make changes to benefit their overall mental and pyshical health.
+Users of this website will be able to gain an understanding of biohacking, the different types of biohacking and the different practises, therapies, nutrition, technology and a mix of professionals used for the specific areas of focus. This site's purpose is to promote biohacking and bring value to different user groups like rehabilitation & recovery, neural conditions, neurological conditions, wellness, mental health, longevity, performance acceleration and enhanced nutrition. The benefits for these users (depending on their specific focus areas) is that they will get access to a combination of therapies, products, supplements and technology to accelerate recovery, increase performance, introduce wellness, promote longevity or simply to learn how they can make changes to benefit their overall mental and physical health.
 
 OVERVIEW</br>
 The site also provides the users a clear outline of the institute, their vison, mission and purpose which is to help, support, heal and accelerate everyone’s wellbeing mentally and physical, along with their environments.
@@ -25,7 +25,7 @@ c. Contact us page</br>
 
 FEATURES & FUNCTIONALITY</BR>
 Home Page</br>
-- This page gives the users the ability to clkick on 'discover' button to learn more about the institute, contact them, and access the other pages through the top navigation or ‘hamburger’ drop-down menu.</br>
+- This page gives the users the ability to click on 'discover' button to learn more about the institute, contact them, and access the other pages through the top navigation menu.</br>
 - Navigation bar: feaured on all three website pages, that is fully responsive which includes links to the logo, home page, about us page, products & services page and the contact us page.<br>
 - To allow a higher degree of usability the site has a 'hambuger' menu, with a dropdown menu feature which shows all the sections and pages of the website.</br>
 
@@ -61,14 +61,12 @@ g. The website’s design follows the principles of UX design and accessibility 
 
 **Epics & user stories**</br>
 - As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.</br>
-- As a user I want the ability to move through the navigation of the site by lcking on the 'hamburger' bar, and be directed to page of choice.</br>
-- As a user I want the ability to easily find the contact informaiton of the company.</br>
-- As a user I want the ability to click on Google maps and be dorected to the app, so that I can get directions form my location to company.</br>
+- As a user I want the ability to move through the navigation of the site by clicking on the menu bar, and be directed to page of choice.</br>
+- As a user I want the ability to click on Google maps and be directed to the app, so that I can get directions form my location to company.</br>
 - As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.</br>
 - As a user I want the ability to get exact information on the products/services offered by the company.</br>
 - As a user I want the ability to fill out the contact form so that I can get in contact with the company.</br>
 - h. As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.</br>
-- i. As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.</br>
 
 Colours</br>
 ![image](https://github.com/user-attachments/assets/393e6c72-ecf8-4857-be5e-37e9ac807e12)
@@ -133,14 +131,13 @@ https://fonts.google.com/
 
 **TESTING**</br>
 User stories</br>
-- As a user I cliced on the social media icons and had expected behviour of being directed to the relevtant URL of the socila media sites directly.</br> 
-- As a user I clicked on top navigation menu and had expceted behaviour of being directed to the products/services page when I clicked on the link and when I clicked on the contact link, I was directed to the contacts page.</br>
+- As a user I clicked on the social media icons and had expected behaviour of being directed to the relevant URL of the social media sites directly.</br> 
+- As a user I clicked on top navigation menu and had expected behaviour of being directed to the products/services page when I clicked on the link and when I clicked on the contact link, I was directed to the contacts page.</br>
 - As a user I clicked on Google maps and was automatically taken to an opened page of in browser which contained google map.</br>
 - As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.</br>
 - As a user I want the ability to get exact information on the products/services offered by the company.</br>
 - As a user I want the ability to fill out the contact form so that I can get in contact with the company directed.</br>
 - As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.</br>
-- As a user I want the ability to click on the different communicaiton options icons and be directed to the specific messaging app to call, send, text a message.</br>
 
 Form validation</br>
 Contact us form</br>
@@ -156,7 +153,7 @@ Newsletter subscription form</br>
 b. Code valildation</br>
 The W3C Html Markup Validator and W3C CSS Validator services were used to validate all pages of the project in order to ensure there were no syntax errors.</br>
 https://validator.w3.org/detailed.html
-Some warnings found for the // in the css stylesheet. 
+Some warnings found for the // in the CSS stylesheet. 
 HTML Home page:</br>
 ![image](https://github.com/user-attachments/assets/d0f056e4-dcc4-4f4b-a217-b205c3077fbe)
 HTML Products: Page</br>
@@ -165,11 +162,11 @@ Contact Page:</br>
 ![image](https://github.com/user-attachments/assets/b4ae2ff6-f34a-451b-82a2-6d7eadef9bf4)
 
 https://jigsaw.w3.org/css-validator/
-Validating my css I ofund this error and corrected it. 
+Validating my CSS I got this error and corrected it. 
 ![image](https://github.com/user-attachments/assets/43e40a1d-d0a1-4229-a884-75567a33311a)
 
 c. Accessibility & scores</br>
-Used Lighthouse in Chrome DevTools to confirm sccessibility used in throughout the website are easy to read and accessible.</br>
+Used Lighthouse in Chrome DevTools to confirm accessibility used in throughout the website are easy to read and accessible.</br>
 
 
 **DEPLOYMENT**</br>
@@ -227,7 +224,7 @@ d. Strategy</br>
 f. USPs</br>
 Our biohacking programs reduced stress & anxiety by 96%</br>
 Our biohacking programs accelerated recovery from major surgery by 68%</br>
-82% reported an imporvement in their mental & physical health</br>
+82% reported an improvement in their mental & physical health</br>
 
 g. Competitors</br>
  - Bulletproof360</br>
