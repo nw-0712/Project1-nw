@@ -164,7 +164,8 @@ Contact Page:</br>
 https://jigsaw.w3.org/css-validator/
 Validating my CSS I got this error and corrected it. 
 ![image](https://github.com/user-attachments/assets/43e40a1d-d0a1-4229-a884-75567a33311a)
-![image](https://github.com/user-attachments/assets/d0560cd1-1cb7-4764-afe5-a549c9b892e0)
+![image](https://github.com/user-attachments/assets/bd8411e5-4b7c-42db-b49e-614f5ed6858b)
+
 
 
 
