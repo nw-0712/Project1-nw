@@ -33,6 +33,8 @@ Home Page</br>
 
 Products & Services page</br>
 - This page the users learn more about some of the products & services that the institute offers.
+![image](https://github.com/user-attachments/assets/c21b1e99-2d40-432c-ba79-670828ff3581)
+
 
 Contact page</br>
 - The users can fill out the contact form, and there are several options to communicate with the institute through ‘message us’ click-through-graphic to text company, ‘ask community’ click-through-graphic which directs the 
