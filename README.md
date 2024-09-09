@@ -207,7 +207,7 @@ a. Users</br>
 - Community health care worker/health extension worker
 - Social worker
 
-b. User segmentationsgroups</br>
+b. User segmentation groups</br>
 - Rehabilitation & recovery
 - Neural conditions (stroke) patients
 - Mental health
@@ -224,9 +224,6 @@ b. User segmentationsgroups</br>
 d. Strategy</br>
   ![image](https://github.com/user-attachments/assets/76a4ede4-43cd-4fe5-8b08-c035e6827297)
 
-e. User benefits</br>
-
-
 f. USPs</br>
 Our biohacking programs reduced stress & anxiety by 96%</br>
 Our biohacking programs accelerated recovery from major surgery by 68%</br>
@@ -234,9 +231,9 @@ Our biohacking programs accelerated recovery from major surgery by 68%</br>
 
 g. Competitors</br>
  - Bulletproof360</br>
--  Moodmetric</br>
+ - Moodmetric</br>
  - Sqlab</br>
-- Dobiohacking</br>
+ - Dobiohacking</br>
  - The Odin</br>
 
 
