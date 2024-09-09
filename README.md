@@ -166,7 +166,7 @@ Newsletter subscription form</br>
 ![image](https://github.com/user-attachments/assets/95be719e-6d65-4942-a2c4-c79b15345680)
 
 
-b. Code valildation</br>
+Code valildation</br>
 The W3C Html Markup Validator and W3C CSS Validator services were used to validate all pages of the project in order to ensure there were no syntax errors.</br>
 https://validator.w3.org/detailed.html
 Some warnings found for the // in the CSS stylesheet. 
@@ -183,25 +183,34 @@ Validating my CSS I got this error and corrected it.
 ![image](https://github.com/user-attachments/assets/bd8411e5-4b7c-42db-b49e-614f5ed6858b)
 
 
-c. Accessibility & scores</br>
+Accessibility & scores</br>
 Used Lighthouse in Chrome DevTools to confirm accessibility used in throughout the website are easy to read and accessible.</br>
+
+Home page</br>
+![image](https://github.com/user-attachments/assets/e2a3e887-7340-4552-aeed-b061e8cc9f6d)
+
+Products & services Page</br>
+![image](https://github.com/user-attachments/assets/f093862b-5c40-4dd6-b822-76c963452ba9)
+
+Contact us page</br>
+![image](https://github.com/user-attachments/assets/b0e7c7de-c0d6-48f8-bca1-c665088ccfab)
 
 
 **DEPLOYMENT**</br>
-a. Github pages & Libraries</br>
+Github pages & Libraries</br>
 
 **RESOURCES**</br>
-a. Best practises</br>
+1. Best practises</br>
 https://stackoverflow.com/
 
-b. Code for Google maps integration</br>
+b2. Code for Google maps integration</br>
 I used this code reference: https://www.w3schools.com/graphics/google_maps_intro.asp
 
-c. Image libraries</br>
+3. Image libraries</br>
 Unsplash</br>
 Freepix</br>
 
-d. Icon libraries</br>
+3. Icon libraries</br>
 Favicon</br>
 
 **Research**</br>
