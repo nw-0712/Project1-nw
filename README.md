@@ -5,23 +5,39 @@ Welcome Users,
 **NEUROXCEL FUSION INSITITUTE** </br>
 Biohacking supported by cutting-edge technologies to accelerate your health and wellness</br>
 
-Users of this website will be able to gain an understanding of biohacking, the different types of biohacking and the different practises, therapies, nutrition, technology and a mix of professionals used for the specific areas of focus. This site's purpose is to promote biohacking and bring value to different user groups like rehabilitation & recovery, neural conditions, neurological conditions, wellness, mental health, longevity, performance acceleration and enhanced nutrition. The benefits for these users (depending on their specific focus areas) is that they will get access to a combination of therapies, products, supplements and technology to accelerate recovery, increase performance, introduce wellness, promote longevity or simply to learn how they can make changes to benefit their overall mental and physical health.
-
 OVERVIEW</br>
 The site also provides the users a clear outline of the institute, their vison, mission and purpose which is to help, support, heal and accelerate everyone’s wellbeing mentally and physical, along with their environments.
 
-**CONTENTS:**</br>
+Users of this website will be able to gain an understanding of biohacking, the different types of biohacking and the different practises, therapies, nutrition, technology and a mix of professionals used for the specific areas of focus. This site's purpose is to promote biohacking and bring value to different user groups like rehabilitation & recovery, neural conditions, neurological conditions, wellness, mental health, longevity, performance acceleration and enhanced nutrition. The benefits for these users (depending on their specific focus areas) is that they will get access to a combination of therapies, products, supplements and technology to accelerate recovery, increase performance, introduce wellness, promote longevity or simply to learn how they can make changes to benefit their overall mental and physical health.
+
+
+*CONTENTS:*</br>
 USER EXPERIENCE (ux)</br>
-a. <u>Project goals<u></br>
-b. <u>Epics & user stories<u></br>
-c. <u>Colours<u></br>
-d.<u>Typography (fonts)<u></br>
-e. <u>Wireframes<u></br>
+1. <u>Project goals<u></br>
+2. <u>Epics & user stories<u></br>
+3. <u>Colours<u></br>
+4.<u>Typography (fonts)<u></br>
+5. <u>Wireframes<u></br>
 
 **FEATURES & FUNCTIONALITY**</br>
-a. Home page</br>
-b. Products & Services page</br>
-c. Contact us page</br>
+1. Home page</br>
+2. Products & Services page</br>
+3. Contact us page</br>
+
+**FRAMEWORKS, LIBRARIES AND PROGRAM USED**
+1. Languages</br>
+2. Programs</br>
+
+**TESTING**</br>
+1. User stories</br>
+2. Forms
+3. Code validation</br>
+4. Accessibility & scores</>
+
+**DEPLOYMENT**</br>
+**RESOURCES**</br>
+**RESEARCH**</br>
+
 
 FEATURES & FUNCTIONALITY</BR>
 Home Page</br>
@@ -167,8 +183,6 @@ Validating my CSS I got this error and corrected it.
 ![image](https://github.com/user-attachments/assets/bd8411e5-4b7c-42db-b49e-614f5ed6858b)
 
 
-
-
 c. Accessibility & scores</br>
 Used Lighthouse in Chrome DevTools to confirm accessibility used in throughout the website are easy to read and accessible.</br>
 
@@ -194,7 +208,7 @@ Favicon</br>
 The research I did for project is contained the link and includes the list items below.</br>
 https://my.visme.co/editor/MW9DSW1zTUdUS2kvTFBLanhkTFFpQT09Ojo2TzNKUWlCUHdxLzlHcGhlNE1tNTVnPT0=/basics
 
-a. Users</br>
+1. Users</br>
 - Consumer- no referral (only access to resources, practises, self-help pages)
 - Patients (by referral only)
 - Industry professionals (e.g. Occupational therapist, GP)
@@ -208,7 +222,7 @@ a. Users</br>
 - Community health care worker/health extension worker
 - Social worker
 
-b. User segmentation groups</br>
+2. User segmentation groups</br>
 - Rehabilitation & recovery
 - Neural conditions (stroke) patients
 - Mental health
@@ -222,15 +236,15 @@ b. User segmentation groups</br>
 - Mindfulness
 - Immersion healing
 
-d. Strategy</br>
+3. Strategy</br>
   ![image](https://github.com/user-attachments/assets/76a4ede4-43cd-4fe5-8b08-c035e6827297)
 
-f. USPs</br>
+4. USPs</br>
 Our biohacking programs reduced stress & anxiety by 96%</br>
 Our biohacking programs accelerated recovery from major surgery by 68%</br>
 82% reported an improvement in their mental & physical health</br>
 
-g. Competitors</br>
+5. Competitors</br>
  - Bulletproof360</br>
  - Moodmetric</br>
  - Sqlab</br>
