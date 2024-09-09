@@ -44,8 +44,8 @@ Contact page</br>
 - Contact form: users can fill in details and contact institute through this method.
 - The users can also click on map and be directed to the Google maps application to get directions to the various offices.
 - The users can input their email address to subscribe to the newsletter.
+![image](https://github.com/user-attachments/assets/c1650d47-45bc-42b9-9495-26d829d7defc)
 
-  ![image](https://github.com/user-attachments/assets/4cac51af-d5c6-47c5-b9e1-6824d0f1837a)
 
 **USER EXPERIENCE (UX)**</br>
 Project Goals</br>
@@ -56,6 +56,8 @@ d. A fully functioning, well-documented website.</br>
 e. Well-defined purpose addressing a particular target/multiple audience.</br> 
 f. Its purpose would be immediately evident to a new user.</br> 
 g. The website’s design follows the principles of UX design and accessibility guidelines, and the site is fully responsive.</br>
+
+  ![image](https://github.com/user-attachments/assets/4cac51af-d5c6-47c5-b9e1-6824d0f1837a)
 
 **Epics & user stories**</br>
 a. As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.</br>
