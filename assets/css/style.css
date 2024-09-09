@@ -228,7 +228,7 @@ main {
   color: #ffffff;
   z-index: 999;
   margin-top: 32px;
-  content: space-evenly;
+  justify-content: space-evenly;
   align-items: center;
   margin-left: 0;
   margin-right: 35px;
