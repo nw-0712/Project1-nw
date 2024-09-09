@@ -190,10 +190,10 @@ Home page</br>
 ![image](https://github.com/user-attachments/assets/8f1c3090-7106-414e-b26c-de386e6b4f9a)
 
 Products & services Page</br>
-![image](https://github.com/user-attachments/assets/f093862b-5c40-4dd6-b822-76c963452ba9)
+![image](https://github.com/user-attachments/assets/c7483d08-18c3-469f-b4b2-3895d2ceedfd)
 
 Contact us page</br>
-![image](https://github.com/user-attachments/assets/b0e7c7de-c0d6-48f8-bca1-c665088ccfab)
+![image](https://github.com/user-attachments/assets/5a682cf5-f299-46e6-9e94-9686cc87415c)
 
 
 **DEPLOYMENT**</br>
