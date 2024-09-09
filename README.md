@@ -5,7 +5,7 @@ Welcome Users,
 **NEUROXCEL FUSION INSITITUTE** </br>
 Biohacking supported by cutting-edge technologies to accelerate your health and wellness</br>
 
-Users of this website will be able to gain an understanding of biohacking, the different types of biohacking and the different practises, therapies and mix of professionals used for specific areas of focus, with a mix of information channels on the site supported by rich media in the form of blogs, videos and podcasts.
+Users of this website will be able to gain an understanding of biohacking, the different types of biohacking and the different practises, therapies, nutrition, tehcnology and a mix of professionals used for the specific areas of focus. This site's purpose is to promote biohacking and bring value to different user groups like rehabilitation & recovery, neural conditions, neurological conditions, wellness, mental health, longevity, performance acceleration and enhanced nutrition. The benefits for these users (depending on their specific focus areas) is that they will get access to a combination of therapies, products, supplements and technology to accelerate recovery, increase performance, introduce wellness, promote longevity or simply to learn how they can make changes to benefit their overall mental and pyshical health.
 
 OVERVIEW</br>
 The site also provides the users a clear outline of the institute, their vison, mission and purpose which is to help, support, heal and accelerate everyone’s wellbeing mentally and physical, along with their environments.
@@ -194,11 +194,49 @@ The research I did for project is contained the link and includes the list items
 https://my.visme.co/editor/MW9DSW1zTUdUS2kvTFBLanhkTFFpQT09Ojo2TzNKUWlCUHdxLzlHcGhlNE1tNTVnPT0=/basics
 
 a. Users</br>
-b. User groups</br>
-c. TAM, TOM</br>
+- Consumer- no referral (only access to resources, practises, self-help pages)
+- Patients (by referral only)
+- Industry professionals (e.g. Occupational therapist, GP)
+- Partners
+- Administrators
+- Data security
+- Clinic lead
+- Nutritionist
+- Analysts
+- Researchers
+- Community health care worker/health extension worker
+- Social worker
+
+b. User segmentationsgroups</br>
+- Rehabilitation & recovery
+- Neural conditions (stroke) patients
+- Mental health
+- Nutrigenomics
+- General Wellness
+- Lifestyle change
+- Metabolic improvement
+- Longevity
+- (HIIT) high-intensity interval training
+- Anti-aging
+- Mindfulness
+- Immersion healing
+
 d. Strategy</br>
+  ![image](https://github.com/user-attachments/assets/76a4ede4-43cd-4fe5-8b08-c035e6827297)
+
 e. User benefits</br>
+
+
 f. USPs</br>
+Our biohacking programs reduced stress & anxiety by 96%</br>
+Our biohacking programs accelerated recovery from major surgery by 68%</br>
+82% reported an imporvement in their mental & physical health</br>
+
 g. Competitors</br>
-h. MVP</br>
+ - Bulletproof360</br>
+-  Moodmetric</br>
+ - Sqlab</br>
+- Dobiohacking</br>
+ - The Odin</br>
+
 
