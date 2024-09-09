@@ -62,7 +62,7 @@ g. The website’s design follows the principles of UX design and accessibility 
 **Epics & user stories**</br>
 - As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.</br>
 - As a user I want the ability to move through the navigation of the site by lcking on the 'hamburger' bar, and be directed to page of choice.</br>
-- As a user I wan the ability to easily find the contact informaiton of the company.</br>
+- As a user I want the ability to easily find the contact informaiton of the company.</br>
 - As a user I want the ability to click on Google maps and be dorected to the app, so that I can get directions form my location to company.</br>
 - As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.</br>
 - As a user I want the ability to get exact information on the products/services offered by the company.</br>
