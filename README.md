@@ -187,7 +187,7 @@ Accessibility & scores</br>
 Used Lighthouse in Chrome DevTools to confirm accessibility used in throughout the website are easy to read and accessible.</br>
 
 Home page</br>
-![image](https://github.com/user-attachments/assets/e2a3e887-7340-4552-aeed-b061e8cc9f6d)
+![image](https://github.com/user-attachments/assets/8f1c3090-7106-414e-b26c-de386e6b4f9a)
 
 Products & services Page</br>
 ![image](https://github.com/user-attachments/assets/f093862b-5c40-4dd6-b822-76c963452ba9)
