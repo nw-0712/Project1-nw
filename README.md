@@ -11,7 +11,7 @@ The site also provides the users a clear outline of the institute, their vison, 
 Users of this website will be able to gain an understanding of biohacking, the different types of biohacking and the different practises, therapies, nutrition, technology and a mix of professionals used for the specific areas of focus. This site's purpose is to promote biohacking and bring value to different user groups like rehabilitation & recovery, neural conditions, neurological conditions, wellness, mental health, longevity, performance acceleration and enhanced nutrition. The benefits for these users (depending on their specific focus areas) is that they will get access to a combination of therapies, products, supplements and technology to accelerate recovery, increase performance, introduce wellness, promote longevity or simply to learn how they can make changes to benefit their overall mental and physical health.
 
 
-*CONTENTS:*</br>
+**CONTENTS:**</br>
 USER EXPERIENCE (ux)</br>
 1. <u>Project goals<u></br>
 2. <u>Epics & user stories<u></br>
