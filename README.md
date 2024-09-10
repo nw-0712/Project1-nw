@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/c6d56874-02aa-4e48-b042-e8d8aa23fa3c)
 
 
 Welcome Users,
@@ -6,9 +7,9 @@ Welcome Users,
 Biohacking supported by cutting-edge technologies to accelerate your health and wellness</br>
 
 OVERVIEW</br>
-The site also provides the users a clear outline of the institute, their vison, mission and purpose which is to help, support, heal and accelerate everyone’s wellbeing mentally and physical, along with their environments.
+The site provides the users a clear outline of the institute, their vison, which is to help, support, heal and accelerate everyone’s mental and physical wellbeing.
 
-Users of this website will be able to gain an understanding of biohacking, the different types of biohacking and the different practises, therapies, nutrition, technology and a mix of professionals used for the specific areas of focus. This site's purpose is to promote biohacking and bring value to different user groups like rehabilitation & recovery, neural conditions, neurological conditions, wellness, mental health, longevity, performance acceleration and enhanced nutrition. The benefits for these users (depending on their specific focus areas) is that they will get access to a combination of therapies, products, supplements and technology to accelerate recovery, increase performance, introduce wellness, promote longevity or simply to learn how they can make changes to benefit their overall mental and physical health.
+Users of this website will be able to gain an understanding of biohacking, the different types of biohacking and the different practises, therapies, nutrition, technology and a mix of professionals used for the specific areas of focus. This site's purpose is to promote biohacking and bring value to different user groups like rehabilitation & recovery, neural conditions, neurological conditions, wellness, mental health, longevity, performance acceleration and enhanced nutrition. The benefits for these users (depending on their specific focus areas) is that they will get access to a combination of therapies, products, supplement, experts and technology to accelerate recovery, increase performance, introduce wellness, promote longevity or simply to learn how they can make changes to benefit their overall mental and physical health and change in their environments.
 
 
 **CONTENTS:**</br>
