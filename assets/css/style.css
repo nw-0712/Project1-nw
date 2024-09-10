@@ -180,11 +180,10 @@ main {
   z-index: -1;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: -70px;
   width: 180vw;
   padding-top: 0px;
   padding-bottom: 0px;
-  height: 190vw;
+  height: 170vw;
   flex-direction: column;
   justify-content: center;
 }
@@ -771,7 +770,6 @@ body {
   border-radius: 5px;
   text-align: center;
   margin-top: 200px;
-  margin-left: 30px;
   width: 250px;
   height: 70px;
 }
@@ -1034,7 +1032,6 @@ main {
   border-radius: 5px;
   text-align: center;
   margin-top: 200px;
-  margin-left: 800px;
   width: 450px;
   height: 100px;
 }
