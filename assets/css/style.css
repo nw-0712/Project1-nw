@@ -1014,7 +1014,7 @@ main {
   font-size: 1vw;
   text-align: center;
   margin-top: 300px;
-  margin-left: 1500px;
+  margin-left: 780px;
 }
     
 /* Discover button */
@@ -1040,14 +1040,13 @@ main {
   justify-content: center;
   display: flex;
   z-index: 999;
-
 }
   
 .NFI-graphic img {
   position: absolute;
   margin-left: 300px;
   margin-right: auto;
-  margin-top: 750px;
+  margin-top: 200px;
   width: 4vw;
   height: 6vh;
 }
