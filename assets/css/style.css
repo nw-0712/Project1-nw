@@ -427,7 +427,7 @@ main {
 #testimony-hero img {
   display: flex;
   background-repeat: no-repeat;
-  background: url("../images/testimony.image.png");
+  background: url("assets/images/testimony.image.png");
   width: 100%;
   height: 100%;
 }
@@ -518,7 +518,7 @@ body {font-family: Lato, sans-serif;}
   font-family: Lato;
   position: relative;
   margin-top: 20px;
-  background: url("../images/subscribe.image.jpg") no-repeat;
+  background: url("assets/images/subscribe.image.jpg") no-repeat;
   display: flex;
   flex-direction: column;
   padding: 0px;
