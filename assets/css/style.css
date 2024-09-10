@@ -1007,13 +1007,13 @@ main {
   font-size: 4vw;
   text-align: center;
   margin-left: 780px;
-  margin-top: 0px;
+  margin-top: 200px;
 }
     
 .main-titles-content >h6 {
   font-size: 1vw;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 400px;
   margin-left: 780px;
 }
     
@@ -1044,11 +1044,11 @@ main {
   
 .NFI-graphic img {
   position: absolute;
-  margin-left: 300px;
+  margin-left: 500px;
   margin-right: auto;
-  margin-top: 200px;
-  width: 4vw;
-  height: 6vh;
+  margin-top: 400px;
+  width: 6vw;
+  height: 7vh;
 }
 
 /* Products-services page components */
