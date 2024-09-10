@@ -36,12 +36,12 @@ header {
   padding: 0 1rem;
   position: fixed;
   z-index: 999;
-  width: 100%;
   box-shadow: 0 2px 2px #3a3a3a;
   display: flex;
   justify-content: space-between;
   width: fit-content;
   align-items: baseline;
+  margin-top: 50px;
 }
 
 header a {
@@ -656,10 +656,14 @@ body {font-family: Lato, sans-serif;}
 #toplogo {
   margin-right: 70px;
   align-items: center;
+  width: 50%;
+  height: 50%;
 }
 #toplogo img {
   margin-right: 70px;
   align-items: center;
+  width: 50%;
+  height: 50%;
 }
 
 #communication-container {
@@ -700,8 +704,8 @@ body {font-family: Lato, sans-serif;}
   margin-left: 90px;
   margin-right: auto;
   margin-top: 550px;
-  width: 120px;
-  height: 120px;
+  width: 50%;
+  height: 50%;
 }
 
 /*  Header */  
@@ -932,11 +936,21 @@ nav {
   width: fit-content;
   padding-right: 1rem;
 }
-
 #menu {
+  letter-spacing: 4px;
+  font-size: 110%;
+  list-style-type: none;
+  z-index: 999;
   display: flex;
   width: fit-content;
 }
+
+#menu > li {
+  margin-bottom: 1em;
+  font-size: 1rem;
+  z-index: 999;
+}
+
 
 #menu > li {
   padding-left: 1rem;
@@ -964,35 +978,19 @@ body {
 /* Main content */
 main {
   /* Push the main content down to accomodate the larger header */
-  margin-top: 90px;
-}
-
-.NFI-graphic {
-  position: relative;
-  justify-content: center;
-  display: flex;
-  z-index: 999;
-  margin-left: 880px;
-}
-  
-.NFI-graphic img {
-  position: absolute;
-  margin-left: 880px;
-  margin-right: auto;
-  margin-top: 550px;
-  width: 300px;
-  height: 300px;
+  margin-top: 150px;
 }
 
  /* Home page */
 .containerhero {
   position: relative;
 }
+
 .containerhero img {
   display: flex;
   align-items: center;
   background: url("assets/images/neural.network.cover.f.jpg") no-repeat;
-  width: 160%;
+  width: 150%;
   height: 100%;
 }
 
@@ -1007,7 +1005,7 @@ main {
 }
     
 .main-titles-content >h1 {
-  font-size: 4vw;
+  font-size: 5vw;
   text-align: center;
   margin-left: 860px;
   margin-top: 0px;
@@ -1020,7 +1018,7 @@ main {
   margin-left: 1500px;
 }
     
-/* discover button */
+/* Discover button */
 .containerhero .btn {
   position: absolute;
   background-color: #3EB9BB;
@@ -1032,104 +1030,203 @@ main {
   border-radius: 5px;
   text-align: center;
   margin-top: 200px;
+  margin-left: 400px;
   width: 450px;
   height: 100px;
 }
-    
+  
+/* Brain graphic */
+.NFI-graphic {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  z-index: 999;
+  margin-left: 600px;
+}
+  
+.NFI-graphic img {
+  position: absolute;
+  margin-left: 900px;
+  margin-right: auto;
+  margin-top: 600px;
+  width: 3vw;
+  height: 5vh;
+}
+
 /* Products-services page components */
+#toplogo img {
+  width: 3vw;
+  height: 6.5vh;
+  position: absolute;
+  background-color: #F2F3F4;
+  margin-top: 90px;
+}
+
 #product-hero {
   z-index: -1;
 }
-#product-hero h2 {
+
+#product-hero {
+  background-color: #F2F3F4;
+  text-align: left;
+  color: #22282A;
+  z-index: 999;
+  column-rule-width: 10px;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+
+#product-hero > h2 {
+  text-align: left;
+  color: #22282A;
   font-size: 2vw;
-  margin-top: 620px;
-  margin-left: 80px;
+  width: 100%;
+  margin-top: 24px;
+  padding: 0;
+  margin-left: 40px;
+  margin-right: 20px;
+  font-family: Libre, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.product-column {
+  text-align: left;
+  color: #22282A;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.product-column > h6 {
+  text-align: left;
+  width: 100%;
+  margin-top: 22px;
+  padding: 0;
+  font-size: 1.2vw;
+  color: #22282A;
+  margin-left: 30px;
+  margin-right: 45px;
+  padding-right: 8px;
+}
+
+.product-column > p {
+  text-align: left;
+  width: 100%;
+  margin-top: 15px;
+  padding: 0;
+  font-size: 1.2vw;
+  color: #22282A;
+  line-height: 12px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#products-list-row > li {
+  text-align: left;
+  color: #22282A;
+  margin-left: 50px;
+  margin-right: 30px;
+  font-size: 1vw;
+  float: left;
+  width: 100%;
+  padding: 1px;
+  height: 100%;
+  margin-top: 40px;
+  }
+
+
+ /* Services section */
+#services-hero {
+  background-color: #F2F3F4;
+  text-align: justify;
+  color: #22282A;
+  z-index: 999;
+  column-rule-width: 10px;
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#services-hero > h2 {
+  text-align: left;
+  color: #22282A;
+  font-size: 2vw;
+  width: 100%;
+  margin-top: 30px;
+  padding: 0;
+  margin-left: 20px;
+  margin-left: 40px;
+  font-family: Libre, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.services-column  {
+  text-align: left;
+  color: #22282A;
+  padding: 20px 20px;
   line-height: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 30px;
 }
 
-#services-hero h2 {
-  font-size: 2vw;
-  margin-top: 50px;
-  margin-left: 80px;
+.services-column > h4 {
+  text-align: left;
+  width: 100%;
+  margin-top: 20px;
+  padding: 0;
+  font-size: 1.2vw;
+  color: #22282A;
+  margin-bottom: 45px;
+  font-size: 1.2vw;
+  margin-top: 45px;
 }
 
-.product-column h6 {
-  font-size: 1vw;
-  line-height: 2;
-  margin-left: 80px;
-}
-
-.services-column h6 {
-  font-size: 1vw;
-  line-height: 50px;
-  margin-left: 80px;
-}
-.services-column h4 {
-  font-size: 1vw;
+.services-column > p {
+  text-align: left;
+  margin-top: 20px;
+  padding: 0;
+  font-size: 1.2vw;
+  color: #22282A;
+  text-align: left;
+  width: 100%;
+  padding: 0;
   line-height: 90px;
-  margin-left: 80px;
-}
-.services-column {
-  line-height: 80px;
-  column-count: 2;
-  column-gap: 120px;
+  margin-left: 0px;
+  margin-right: 20px;
 }
 
-.product-column p {
-  font-size: 1vw;
-  line-height: 85px;
-  margin-left: 80px;
-}
-.services-column p {
-  font-size: 1vw;
-  line-height: 80px;
-  margin-left: 80px;
+.services-column hr {
+  font-size: 25px;
 }
 
-#products-list-row li {
-  font-size: 1.3vw;
-  line-height: 120px;
-  margin-left: 200px;
-}
-
-/* Contact us page */
-
-#toplogo {
-  align-items: center;
-  position: relative;
-  z-index: -1;
-}
-
-#toplogo img {
-width: 200px;
-height: 200px;
-align-items: center;
-position: absolute;
-margin-top: 150px;
-margin-left: 100px;
-z-index: -1;
-}
 
 /* Contact us form */
 #Container-contact {
-  width: 600px;
-  height: 800px;
+  width: 10vw;
+  height: 40vh;
   order: 1;
   margin-top: 100px;
   margin-left: 300px;
 }
 
 #contact-our-team {
-  width: fit-content;
-  height: fit-content;
+  width: 10vw;
+  height: 40vh;
   order: 1;
   resize: both;
   overflow: auto;
 }
 
 #contact-form {
-  width: fit-content;
-  height: fit-content;
+  width: 10vw;
+  height: 40vh;
   order: 1;
   resize: both;
   overflow: auto;
@@ -1163,14 +1260,14 @@ z-index: -1;
 
 /* Communication row */
 #communication-container {
-  width: 100%;
-  height: 100%;
+  width: 20vw;
+  height: 20vh;
   margin-top: 0px;
 }
 
 #comms-options {
-  width: 50%;
-  height: 65%;
+  width: 20vw;
+  height: 20vh;
   margin-top: 0px;
   margin-left: 10px;
 }
@@ -1186,6 +1283,7 @@ z-index: -1;
   margin-left: 35px;
   margin-top: 100px;
 }
+
 .compliancetext > p {
   font-size: 13px;
   text-align: center;
@@ -1198,10 +1296,10 @@ z-index: -1;
 #fblockcolor{
   height: 500px;
   width: 155vw;
-  }
+}
 
 #social-networks i {
-  font-size: 80px;
+  font-size: 2vw;
   margin-top: 180px;
 }
 }
