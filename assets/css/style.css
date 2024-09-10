@@ -1006,15 +1006,13 @@ main {
 .main-titles-content >h1 {
   font-size: 4vw;
   text-align: center;
-  margin-left: 780px;
-  margin-top: 200px;
+  margin-top: 400px;
 }
     
 .main-titles-content >h6 {
   font-size: 1vw;
   text-align: center;
-  margin-top: 400px;
-  margin-left: 780px;
+  margin-top: 550;
 }
     
 /* Discover button */
@@ -1030,21 +1028,22 @@ main {
   text-align: center;
   margin-top: 200px;
   margin-left: 50px;
-  width: 450px;
-  height: 100px;
+  width: 250px;
+  height: 80px;
 }
   
 /* Brain graphic */
 .NFI-graphic {
   position: relative;
   justify-content: center;
+  align-items: center;
   display: flex;
   z-index: 999;
 }
   
 .NFI-graphic img {
   position: absolute;
-  margin-left: 500px;
+  margin-left: 600px;
   margin-right: auto;
   margin-top: 400px;
   width: 6vw;
