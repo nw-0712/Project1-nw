@@ -180,10 +180,10 @@ main {
   z-index: -1;
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 180vw;
   padding-top: 0px;
   padding-bottom: 0px;
-  height: 170vw;
+  height: 170vh;
+  width: 180vw;
   flex-direction: column;
   justify-content: center;
 }
@@ -192,7 +192,7 @@ main {
 .containerhero .btn {
   position: absolute;
   top: 50%;
-  left: 36%;
+  left: 20%;
   background-color: #3EB9BB;
   color: white;
   font-size: 16px;
@@ -1014,7 +1014,7 @@ main {
 .main-titles-content >h6 {
   font-size: 1vw;
   text-align: center;
-  margin-top: 580px;
+  margin-top: 700px;
   left: 35%;
 }
     
@@ -1023,16 +1023,16 @@ main {
   position: absolute;
   background-color: #3EB9BB;
   color: white;
-  font-size: 21px;
+  font-size: 40px;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
   margin-top: 200px;
-  width: 250px;
-  height: 80px;
-  left: 53%;
+  height: 7vh;
+  width: 11vw;
+  left: 49%;
 }
   
 /* Brain graphic */
@@ -1048,9 +1048,9 @@ main {
   position: absolute;
   margin-left: 10%;
   margin-right: auto;
-  margin-top: 53%;
+  margin-top: 30%;
   width: 4vw;
-  height: 7vh;
+  height: 8vh;
 }
 
 /* Products-services page components */
