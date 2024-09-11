@@ -704,7 +704,7 @@ body {font-family: Lato, sans-serif;}
   position: absolute;
   margin-left: 90px;
   margin-right: auto;
-  margin-top: 550px;
+  margin-top: 460px;
   width: 50%;
   height: 50%;
 }
@@ -1023,13 +1023,13 @@ main {
   position: absolute;
   background-color: #3EB9BB;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-  margin-top: 200px;
+  margin-top:320px;
   height: 7vh;
   width: 11vw;
   left: 49%;
@@ -1046,11 +1046,11 @@ main {
   
 .NFI-graphic img {
   position: absolute;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-right: auto;
   margin-top: 30%;
-  width: 4vw;
-  height: 8vh;
+  width: 7vw;
+  height: 13vh;
 }
 
 /* Products-services page components */
