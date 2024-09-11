@@ -44,8 +44,8 @@ USER EXPERIENCE (ux)</br>
 FEATURES & FUNCTIONALITY</BR>
 Home Page</br>
 - This page gives the users the ability to click on 'discover' button to learn more about the institute, contact them, and access the other pages through the top navigation menu.</br>
-- Navigation bar: feaured on all three website pages, that is fully responsive which includes links to the logo, home page, about us page, products & services page and the contact us page.<br>
-- To allow a higher degree of usability the site has a 'hambuger' menu, with a dropdown menu feature which shows all the sections and pages of the website.</br>
+- Topnavigation bar: is featured on all three website pages, that is fully responsive which includes links to the logo, home page, about us page, products & services page and the contact us page.<br>
+
 
 ![image](https://github.com/user-attachments/assets/01b49b8c-edc1-4dde-8f49-3107d9e79053)
 
@@ -55,13 +55,10 @@ Products & Services page</br>
 
 
 Contact page</br>
-- The users can fill out the contact form, and there are several options to communicate with the institute through ‘message us’ click-through-graphic to text company, ‘ask community’ click-through-graphic which directs the 
-  user to the community page, ‘call us’ click-through-graphic which shows telephone number and launches the call app of users phone, contact the resolution centre through click-through-graphic which directs the user to the 
-  customer services centre (3rd party) to the resolution section or to 'join the global community' click-through-graphic, which directs the user to community page of site.</br>
-- This adds to usability to allow the user to click on different communication options to contact the company.
+- The users can fill out the contact form, to contact the company and has dropdown function to select country of choice.
 - Contact form: users can fill in details and contact institute through this method.
 - The users can also click on map and be directed to the Google maps application to get directions to the various offices.
-- The users can input their email address to subscribe to the newsletter.
+- The users can input their email address to subscribe to the company newsletter.
 ![image](https://github.com/user-attachments/assets/c1650d47-45bc-42b9-9495-26d829d7defc)
 
 
@@ -79,12 +76,12 @@ g. The website’s design follows the principles of UX design and accessibility 
 
 **Epics & user stories**</br>
 - As a user I want the ability to click on all the social media icons and be redirected to the relevant social media sites.</br>
-- As a user I want the ability to move through the navigation of the site by clicking on the menu bar, and be directed to page of choice.</br>
+- As a user I want the ability to move through the navigation of the site by clicking on the menu bar and be directed to the page of choice.</br>
 - As a user I want the ability to click on Google maps and be directed to the app, so that I can get directions form my location to company.</br>
 - As a user I want the ability to click on the 'call-to-action' discover button so that I can be directed to the products/service page and learn more about biohacking and institute.</br>
 - As a user I want the ability to get exact information on the products/services offered by the company.</br>
 - As a user I want the ability to fill out the contact form so that I can get in contact with the company.</br>
-- h. As a user I want the ability to enter my personalised message in the 'free-text' field, so I can give personalised message to the company.</br>
+- As a user I want the ability to enter my personalised message in the 'freetext' field, so I can give personalised message to the company.</br>
 
 Colours</br>
 ![image](https://github.com/user-attachments/assets/393e6c72-ecf8-4857-be5e-37e9ac807e12)
